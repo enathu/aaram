@@ -2,7 +2,7 @@
 
 Aaram is a unique font family, that comes in six gorgeous styles to choose from. Aaram primarily designed for screen but it'll look fantastic in print too, I reckon.
 
-**Fun Fact:** Shape of this font, derived from the different radius in a circle & curves in a rectangle, thus Aaram is the is a [Tamil](http://en.wikipedia.org/wiki/Tamil_language) word, which litereally means Radius. 
+**Fun Fact:** Shape of this font, derived from the different radius in a circle & curves in a rectangle, thus Aaram is the is a [Tamil](http://en.wikipedia.org/wiki/Tamil_language) word, which litereally means radius. 
 
 ## Installing 
 
