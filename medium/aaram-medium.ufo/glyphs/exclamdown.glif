@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclamdown" format="1">
+  <advance width="76"/>
+  <unicode hex="00A1"/>
+  <outline>
+    <contour>
+      <point x="36" y="651" type="curve" smooth="yes"/>
+      <point x="23" y="651"/>
+      <point x="12" y="640"/>
+      <point x="12" y="627" type="curve"/>
+      <point x="12" y="22" type="line"/>
+      <point x="12" y="10"/>
+      <point x="23" y="-1"/>
+      <point x="36" y="-1" type="curve" smooth="yes"/>
+      <point x="49" y="-1"/>
+      <point x="59" y="10"/>
+      <point x="59" y="22" type="curve"/>
+      <point x="59" y="627" type="line"/>
+      <point x="59" y="640"/>
+      <point x="49" y="651"/>
+    </contour>
+    <contour>
+      <point x="36" y="726" type="curve" smooth="yes"/>
+      <point x="23" y="726"/>
+      <point x="12" y="715"/>
+      <point x="12" y="702" type="curve"/>
+      <point x="12" y="690" type="line"/>
+      <point x="12" y="677"/>
+      <point x="23" y="666"/>
+      <point x="36" y="666" type="curve" smooth="yes"/>
+      <point x="49" y="666"/>
+      <point x="59" y="677"/>
+      <point x="59" y="690" type="curve"/>
+      <point x="59" y="702" type="line"/>
+      <point x="59" y="715"/>
+      <point x="49" y="726"/>
+    </contour>
+  </outline>
+</glyph>
