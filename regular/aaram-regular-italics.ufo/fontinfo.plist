@@ -25,7 +25,7 @@
 	<key>openTypeHheaDescender</key>
 	<integer>-250</integer>
 	<key>openTypeHheaLineGap</key>
-	<integer>9</integer>
+	<integer>0</integer>
 	<key>openTypeNameCompatibleFullName</key>
 	<string>Aaram Italic</string>
 	<key>openTypeNameDescription</key>
@@ -141,7 +141,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>openTypeNameUniqueID</key>
 	<string>ThariqueAzeez: Aaram: 2014</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 1.000</string>
+	<string>Version 1.006</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 	</array>
@@ -270,7 +270,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>0</integer>
+	<integer>6</integer>
 	<key>xHeight</key>
 	<integer>527</integer>
 	<key>year</key>

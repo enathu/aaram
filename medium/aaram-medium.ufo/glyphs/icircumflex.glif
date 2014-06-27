@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="icircumflex" format="1">
-  <advance width="133"/>
+  <advance width="246"/>
   <unicode hex="00EE"/>
   <outline>
     <contour>
-      <point x="37" y="528" type="curve" smooth="yes"/>
-      <point x="104" y="528"/>
-      <point x="127" y="474"/>
-      <point x="127" y="408" type="curve"/>
-      <point x="127" y="24" type="line"/>
-      <point x="127" y="11"/>
-      <point x="117" y="0"/>
-      <point x="103" y="0" type="curve" smooth="yes"/>
-      <point x="89" y="0"/>
-      <point x="79" y="11"/>
-      <point x="79" y="24" type="curve"/>
-      <point x="79" y="408" type="line"/>
-      <point x="79" y="447"/>
-      <point x="74" y="479"/>
-      <point x="37" y="479" type="curve" smooth="yes"/>
-      <point x="23" y="479"/>
-      <point x="12" y="490"/>
-      <point x="12" y="504" type="curve" smooth="yes"/>
-      <point x="12" y="515"/>
-      <point x="23" y="528"/>
+      <point x="103" y="528" type="curve" smooth="yes"/>
+      <point x="171" y="528"/>
+      <point x="196" y="474"/>
+      <point x="196" y="407" type="curve"/>
+      <point x="196" y="27" type="line"/>
+      <point x="196" y="12"/>
+      <point x="184" y="0"/>
+      <point x="169" y="0" type="curve" smooth="yes"/>
+      <point x="153" y="0"/>
+      <point x="142" y="12"/>
+      <point x="142" y="27" type="curve"/>
+      <point x="142" y="407" type="line"/>
+      <point x="142" y="443"/>
+      <point x="137" y="474"/>
+      <point x="103" y="474" type="curve" smooth="yes"/>
+      <point x="88" y="474"/>
+      <point x="76" y="486"/>
+      <point x="76" y="501" type="curve" smooth="yes"/>
+      <point x="76" y="514"/>
+      <point x="88" y="528"/>
     </contour>
-    <component base="circumflex" xScale="0.735159814358" yScale="1.03546094894" xOffset="-30" yOffset="18"/>
+    <component base="circumflex" xScale="0.735159814358" yScale="1.03546094894" xOffset="10" yOffset="14"/>
   </outline>
 </glyph>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uacute" format="1">
-  <advance width="313"/>
+  <advance width="359"/>
   <unicode hex="00FA"/>
   <outline>
     <component base="u"/>
-    <component base="acute" xOffset="48" yOffset="4"/>
+    <component base="acute" xOffset="51" yOffset="-2"/>
   </outline>
 </glyph>
