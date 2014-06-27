@@ -2,7 +2,7 @@
 
 Aaram is a unique font family, that comes in six gorgeous styles to choose from. Aaram primarily designed for screen but it'll look fantastic in print too, I reckon.
 
-**Fun Fact:** Shape of this font, derived from the different radius in a circle & curves in a rectangle, thus Aaram is the is a [Tamil](http://en.wikipedia.org/wiki/Tamil_language) word, which litereally means radius. 
+**Fun Fact:** Shape of this font, derived from the different radius in a circle & curves in a rectangle, thus Aaram is a [Tamil](http://en.wikipedia.org/wiki/Tamil_language) word, which litereally means radius. 
 
 ## Installing 
 
@@ -18,10 +18,10 @@ Here is how **you** can help and contribute to the development of Neythal font.
 
 ### Bug Reports & Glyph requests
 
-Send us bug reports, feature enhancements or glyph requests, using the [Github Issue Tracker](https://github.com/enathu/neythal-font/issues/).
+Send us bug reports, feature enhancements or glyph requests, using the [Github Issue Tracker](https://github.com/enathu/aaram/issues/).
 
 ## License
 
 Copyright (c) 2014, Tharique Azeez ([http://niram.org](http://niram.org))
 
-Neythal is licensed under the SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>)
+Aaram is licensed under the SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>)
