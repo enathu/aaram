@@ -1,9 +1,9 @@
 ## Work in progress.
-Designing the Tamil counterpart for Aaram.
+Tamil counterpart for Aaram - design in progress.
 
 # Aaram Font
 
-Aaram is a unique font family, that comes in six gorgeous styles to choose from. Aaram primarily designed for screen but it'll look fantastic in print too, I reckon.
+Aaram is a unique typeface with pizzazz. Primarily designed for the screen usage but it'll make the print, awesome too. 
 
 **Fun Fact:** Shape of this font, derived from the different radius in a circle & curves in a rectangle, thus Aaram is a [Tamil](http://en.wikipedia.org/wiki/Tamil_language) word, which litereally means radius. 
 
