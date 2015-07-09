@@ -9,7 +9,7 @@ Aaram is a unique typeface with pizzazz. Primarily designed for the screen usage
 
 ## Installing 
 
-You can grab the ttf and otf files from the build folder in this repository and install it on your systems.
+You can grab the ttf file from the build folder in this repository and install it on your systems.
 
 ## Getting Involved
 
@@ -17,7 +17,7 @@ Here is how **you** can help and contribute to the development of Neythal font.
 
 1. Tell me about any bugs you find, or enhancements you would like to see
 
-2. Contribute directly to the font. Complete set of source files are available in this repository as VBF and UFO files.
+2. Contribute directly to the font. Complete set of source files are available in this repository as UFO files.
 
 ### Bug Reports & Glyph requests
 
