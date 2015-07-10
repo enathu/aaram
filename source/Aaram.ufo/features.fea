@@ -15,33 +15,54 @@ feature liga {
      language dflt ;
       lookup ligaStandardLigaturesinLatinloo;
 } liga;
-#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+# GPOS 
+
+
+lookup kernHorizontalKerninginLatinloo {
+  lookupflag 0;
+    pos \M \E -8;
+    pos \P \Q -39;
+    pos \R \G -23;
+    pos \a \m -55;
+    pos \a \b -70;
+    pos \f \g -24;
+    pos \l \m -24;
+} kernHorizontalKerninginLatinloo;
+
+feature kern {
+
+ script latn;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinloo;
+} kern;
 
 @GDEF_Simple = [\B \A \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \a \b \c \d 
-	\e \g \h \i \j \k \l \m \n \o \p \q \r \s \u \v \w \x \y \z \acute \Eacute \eacute \dieresis 
-	\Adieresis \Aacute \iacute \caron \tilde \atilde \Iacute \ntilde \Ntilde 
-	\Edieresis \edieresis \bullet \circumflex \acircumflex \grave \Agrave \agrave 
-	\egrave \Egrave \ellipsis \ring \Aring \aring \Odieresis \odieresis \Udieresis 
-	\udieresis \Idieresis \idieresis \adieresis \scaron \Scaron \Ydieresis \Uacute 
-	\Ugrave \uacute \ugrave \Ograve \Oacute \oacute \ograve \ocircumflex \otilde 
-	\Otilde \Igrave \igrave \icircumflex \Icircumflex \ecircumflex \Ecircumflex 
-	\Atilde \Acircumflex \aacute \Yacute \yacute \ydieresis \uni00A0 \space 
-	\dotlessi \Ocircumflex \Ucircumflex \ucircumflex \ae \AE \periodcentered 
-	\period \Zcaron \zcaron \endash \emdash \hyphen \asciitilde \one \two \three \four 
-	\five \six \seven \eight \nine \zero \bar \bracketright \bracketleft \backslash 
-	\less \greater \equal \colon \semicolon \paragraph \question \questiondown \at 
-	\comma \plus \exclam \dollar \ampersand \percent \perthousand \dotaccent 
-	\quoteright \quoteleft \quotedblleft \quotedblright \trademark \guilsinglleft 
-	\guilsinglright \guillemotright \guillemotleft \numbersign \quotesingle 
-	\quotedbl \parenright \parenleft \hungarumlaut \asciicircum \underscore 
-	\quotesinglbase \quotedblbase \divide \multiply \cedilla \Ccedilla \ccedilla 
-	\section \copyright \registered \minus \logicalnot \exclamdown \cent \sterling 
-	\currency \slash \fraction \OE \oe \yen \Euro \florin \dagger \daggerdbl 
-	\braceright \braceleft \ogonek \breve \fi \fl \Lslash \lslash \brokenbar 
-	\asterisk \Oslash \oslash \eth \Eth \plusminus \mu \germandbls \thorn \Thorn 
-	\degree \ordmasculine \uni00AD \ordfeminine \onesuperior \twosuperior 
+	\e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \acute \Eacute \eacute 
+	\dieresis \Adieresis \Aacute \iacute \caron \tilde \atilde \Iacute \ntilde 
+	\Ntilde \Edieresis \edieresis \bullet \circumflex \acircumflex \grave \Agrave 
+	\agrave \egrave \Egrave \ellipsis \ring \Aring \aring \Odieresis \odieresis 
+	\Udieresis \udieresis \Idieresis \idieresis \adieresis \scaron \Scaron 
+	\Ydieresis \Uacute \Ugrave \uacute \ugrave \Ograve \Oacute \oacute \ograve 
+	\ocircumflex \otilde \Otilde \Igrave \igrave \icircumflex \Icircumflex 
+	\ecircumflex \Ecircumflex \Atilde \Acircumflex \aacute \Yacute \yacute 
+	\ydieresis \uni00A0 \space \dotlessi \Ocircumflex \Ucircumflex \ucircumflex \ae 
+	\AE \periodcentered \period \Zcaron \zcaron \endash \emdash \hyphen \asciitilde 
+	\one \two \three \four \five \six \seven \eight \nine \zero \bar \bracketright 
+	\bracketleft \backslash \less \greater \equal \colon \semicolon \paragraph 
+	\question \questiondown \at \comma \plus \exclam \dollar \ampersand \percent 
+	\perthousand \dotaccent \quoteright \quoteleft \quotedblleft \quotedblright 
+	\trademark \guilsinglleft \guilsinglright \guillemotright \guillemotleft 
+	\numbersign \quotesingle \quotedbl \parenright \parenleft \hungarumlaut 
+	\asciicircum \underscore \quotesinglbase \quotedblbase \divide \multiply 
+	\cedilla \Ccedilla \ccedilla \section \copyright \registered \minus \logicalnot 
+	\exclamdown \cent \sterling \currency \slash \fraction \OE \oe \yen \Euro \florin 
+	\dagger \daggerdbl \braceright \braceleft \ogonek \breve \fi \fl \Lslash \lslash 
+	\brokenbar \asterisk \Oslash \oslash \eth \Eth \plusminus \mu \germandbls \thorn 
+	\Thorn \degree \ordmasculine \uni00AD \ordfeminine \onesuperior \twosuperior 
 	\threesuperior \macron \onequarter \onehalf \threequarters \foursuperior 
-	\divisionslash \t \f ];
+	\divisionslash \uni0BA4 \uni0BA8 \uni0BB2 \uni0BB3 \uni0BB5 \uni0BB7 \uni0BB8 
+	\uni0BB9 \uni0BAE \uni0BAA ];
 @GDEF_Ligature = [\ff ];
 
 table GDEF {
