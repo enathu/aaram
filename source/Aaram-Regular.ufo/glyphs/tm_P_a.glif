@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tm_Pa" format="1">
+  <advance width="551"/>
+  <unicode hex="0BAA"/>
+  <outline>
+    <contour>
+      <point x="360" y="1" type="qcurve" smooth="yes"/>
+      <point x="172" y="1" type="line" smooth="yes"/>
+      <point x="150" y="1"/>
+      <point x="112" y="18"/>
+      <point x="83" y="47"/>
+      <point x="66" y="85"/>
+      <point x="66" y="107" type="qcurve" smooth="yes"/>
+      <point x="66" y="532" type="line" smooth="yes"/>
+      <point x="66" y="539"/>
+      <point x="76" y="549"/>
+      <point x="83" y="549" type="qcurve" smooth="yes"/>
+      <point x="91" y="549"/>
+      <point x="100" y="539"/>
+      <point x="100" y="532" type="qcurve" smooth="yes"/>
+      <point x="100" y="107" type="line" smooth="yes"/>
+      <point x="100" y="78"/>
+      <point x="143" y="36"/>
+      <point x="172" y="36" type="qcurve" smooth="yes"/>
+      <point x="360" y="36" type="line" smooth="yes"/>
+      <point x="390" y="36"/>
+      <point x="432" y="78"/>
+      <point x="432" y="107" type="qcurve" smooth="yes"/>
+      <point x="432" y="532" type="line" smooth="yes"/>
+      <point x="432" y="539"/>
+      <point x="442" y="549"/>
+      <point x="449" y="549" type="qcurve" smooth="yes"/>
+      <point x="457" y="549"/>
+      <point x="467" y="539"/>
+      <point x="467" y="532" type="qcurve" smooth="yes"/>
+      <point x="467" y="107" type="line" smooth="yes"/>
+      <point x="467" y="85"/>
+      <point x="450" y="47"/>
+      <point x="421" y="18"/>
+      <point x="382" y="1"/>
+    </contour>
+  </outline>
+</glyph>
