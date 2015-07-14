@@ -590,6 +590,22 @@
     <string>tm_A_nusvara.glif</string>
     <key>tm_Visarga</key>
     <string>tm_V_isarga.glif</string>
+    <key>tm_U</key>
+    <string>tm_U_.glif</string>
+    <key>tm_Uu</key>
+    <string>tm_U_u.glif</string>
+    <key>tm_E</key>
+    <string>tm_E_.glif</string>
+    <key>tm_Ee</key>
+    <string>tm_E_e.glif</string>
+    <key>tm_Ai</key>
+    <string>tm_A_i.glif</string>
+    <key>tm_O</key>
+    <string>tm_O_.glif</string>
+    <key>tm_Oo</key>
+    <string>tm_O_o.glif</string>
+    <key>tm_Au</key>
+    <string>tm_A_u.glif</string>
     <key>tm_Ka</key>
     <string>tm_K_a.glif</string>
     <key>tm_Nga</key>
