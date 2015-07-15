@@ -21,41 +21,22 @@
 	\idieresis \eth \ntilde \ograve \oacute \ocircumflex \otilde \odieresis \divide 
 	\oslash \ugrave \uacute \ucircumflex \udieresis \yacute \thorn \ydieresis 
 	\Amacron \amacron \Abreve \abreve \Aogonek \aogonek \Cacute \cacute \Ccaron 
-	\ccaron \Dcaron \dcaron \Dcroat \dcroat \Emacron \emacron \Edotaccent 
-	\edotaccent \Eogonek \eogonek \Ecaron \ecaron \Gbreve \gbreve \Gcommaaccent 
-	\gcommaaccent \Imacron \imacron \Iogonek \iogonek \Idotaccent \dotlessi 
-	\Kcommaaccent \kcommaaccent \Lacute \lacute \Lcommaaccent \lcommaaccent 
-	\Lcaron \lcaron \Lslash \lslash \Nacute \nacute \Ncommaaccent \ncommaaccent 
-	\Ncaron \ncaron \Omacron \omacron \Ohungarumlaut \ohungarumlaut \OE \oe \Racute 
-	\racute \Rcommaaccent \rcommaaccent \Rcaron \rcaron \Sacute \sacute \Scedilla 
-	\scedilla \Scaron \scaron \Tcedilla \tcedilla \Tcaron \tcaron \Umacron \umacron 
-	\Uring \uring \Uhungarumlaut \uhungarumlaut \Uogonek \uogonek \Ydieresis 
-	\Zacute \zacute \Zdotaccent \zdotaccent \Zcaron \zcaron \florin \Scommaaccent 
-	\scommaaccent \Tcommaaccent \tcommaaccent \circumflex \caron \uni02C9 \breve 
-	\dotaccent \ring \ogonek \tilde \hungarumlaut \pi \tm_Visarga \tm_A \tm_Aa \tm_I 
-	\tm_Ii \tm_U \tm_Uu \tm_E \tm_Ee \tm_Ai \tm_O \tm_Oo \tm_Au \tm_Ka \tm_Nga \tm_Ca 
-	\tm_Ja \tm_Nya \tm_Tta \tm_Nna \tm_Ta \tm_Na \tm_Nnna \tm_Pa \tm_Ma \tm_Ya \tm_Ra 
-	\tm_Rra \tm_La \tm_Lla \tm_Llla \tm_Va \tm_Sha \tm_Ssa \tm_Sa \tm_Ha \tm_VowelAa 
-	\tm_VowelI \tm_VowelU \tm_VowelUu \tm_VowelE \tm_VowelEe \tm_VowelAi 
-	\tm_VowelO \tm_VowelOo \tm_VowelAu \tm_Om \tm_AuLengthMark \tm_Zero \tm_One 
-	\tm_Two \tm_Three \tm_Four \tm_Five \tm_Six \tm_Seven \tm_Eight \tm_Nine \tm_Ten 
-	\tm_Hundred \tm_Thousand \tm_Naal \tm_Maatham \tm_Varudam \tm_Patru \tm_Varavu 
-	\tm_Merpadi \tm_Rupee \tm_Enn \uni200C \uni200D \endash \emdash \quoteleft 
-	\quoteright \quotesinglbase \quotedblleft \quotedblright \quotedblbase 
-	\dagger \daggerdbl \bullet \ellipsis \perthousand \guilsinglleft 
-	\guilsinglright \fraction \foursuperior \Euro \Turkishlira \Ruble \litre 
-	\trademark \Ohm \estimated \partialdiff \Delta \product \summation \minus 
-	\divisionslash \bulletmath \radical \infinity \integral \approxequal \notequal 
-	\lessequal \greaterequal \lozenge \uni25CC \commaaccent \ff \fi \fl 
-	\periodcentered \uni00AD \overscore.001 \grave.case \dieresis.case 
-	\macron.case \acute.case \circumflex.case \caron.case \breve.case 
-	\dotaccent.case \ring.case \tilde.case \hungarumlaut.case \tm_VowelAi.alt 
-	\tm_VowelI.alt1 \tm_VowelU.alt1 \tm_VowelUu.alt1 \tm_VowelI.alt2 
-	\tm_VowelI.alt3 \tm_VowelI.alt4 \tm_KU \tm_CU \tm_NyU \tm_TtU \tm_NnU \tm_TU 
-	\tm_NU \tm_NnnU \tm_MU \tm_RU \tm_RrU \tm_LU \tm_LlU \tm_LllU \tm_KUu \tm_NgUu 
-	\tm_CUu \tm_TtUu \tm_PUu \tm_MUu \tm_YUu \tm_RUu \tm_LlUu \tm_LllUu \tm_VUu 
-	\tm_KSsa \tm_TtI \tm_TtIi \tm_Shree \a.ss0 ];
-@GDEF_Mark = [\tm_Anusvara \tm_VowelIi \tm_Virama ];
+	\ccaron \Dcaron \Emacron \emacron \Edotaccent \edotaccent \Eogonek \eogonek 
+	\Ecaron \ecaron \Gbreve \gbreve \Gcommaaccent \Imacron \imacron \Iogonek 
+	\iogonek \Idotaccent \dotlessi \Kcommaaccent \kcommaaccent \Lacute \lacute 
+	\Lcommaaccent \lcommaaccent \Lcaron \lcaron \Lslash \lslash \Nacute \nacute 
+	\Ncommaaccent \ncommaaccent \Ncaron \ncaron \Omacron \omacron \Ohungarumlaut 
+	\ohungarumlaut \OE \oe \Racute \racute \Rcommaaccent \rcommaaccent \Rcaron 
+	\rcaron \Sacute \sacute \Scedilla \scedilla \Scaron \scaron \Tcedilla \tcedilla 
+	\Tcaron \tcaron \Umacron \umacron \Uring \uring \Uhungarumlaut \uhungarumlaut 
+	\Uogonek \uogonek \Ydieresis \Zacute \zacute \Zdotaccent \zdotaccent \Zcaron 
+	\zcaron \florin \Scommaaccent \scommaaccent \Tcommaaccent \tcommaaccent 
+	\circumflex \caron \uni02C9 \breve \dotaccent \ring \ogonek \tilde \hungarumlaut 
+	\tm_Visarga \tm_U \tm_Uu \tm_E \tm_Ee \tm_Ai \tm_O \tm_Oo \tm_Au \tm_Ka \tm_Nga 
+	\tm_Ca \tm_Ja \tm_Nya \tm_Tta \tm_Nna \tm_Ta \tm_Na \tm_Nnna \tm_Pa \tm_Ma \tm_Ya 
+	\tm_Ra \tm_Rra \tm_La \tm_Lla \tm_Llla \tm_Va \tm_Sha \tm_Ssa \tm_Sa \tm_Ha 
+	\tm_VowelAa \uni0B85 \uni0B86 \uni0B87 \uni0B88 ];
+@GDEF_Mark = [\tm_Anusvara ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;

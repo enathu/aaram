@@ -410,12 +410,6 @@
     <string>ccaron.glif</string>
     <key>Dcaron</key>
     <string>D_caron.glif</string>
-    <key>dcaron</key>
-    <string>dcaron.glif</string>
-    <key>Dcroat</key>
-    <string>D_croat.glif</string>
-    <key>dcroat</key>
-    <string>dcroat.glif</string>
     <key>Emacron</key>
     <string>E_macron.glif</string>
     <key>emacron</key>
@@ -438,8 +432,6 @@
     <string>gbreve.glif</string>
     <key>Gcommaaccent</key>
     <string>G_commaaccent.glif</string>
-    <key>gcommaaccent</key>
-    <string>gcommaaccent.glif</string>
     <key>Imacron</key>
     <string>I_macron.glif</string>
     <key>imacron</key>
@@ -654,5 +646,13 @@
     <string>tm_H_a.glif</string>
     <key>tm_VowelAa</key>
     <string>tm_V_owelA_a.glif</string>
+    <key>uni0B85</key>
+    <string>uni0B_85.glif</string>
+    <key>uni0B86</key>
+    <string>uni0B_86.glif</string>
+    <key>uni0B87</key>
+    <string>uni0B_87.glif</string>
+    <key>uni0B88</key>
+    <string>uni0B_88.glif</string>
   </dict>
 </plist>
