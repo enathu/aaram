@@ -35,7 +35,8 @@
 	\tm_Visarga \tm_U \tm_Uu \tm_E \tm_Ee \tm_Ai \tm_O \tm_Oo \tm_Au \tm_Ka \tm_Nga 
 	\tm_Ca \tm_Ja \tm_Nya \tm_Tta \tm_Nna \tm_Ta \tm_Na \tm_Nnna \tm_Pa \tm_Ma \tm_Ya 
 	\tm_Ra \tm_Rra \tm_La \tm_Lla \tm_Llla \tm_Va \tm_Sha \tm_Ssa \tm_Sa \tm_Ha 
-	\tm_VowelAa \uni0B85 \uni0B86 \uni0B87 \uni0B88 ];
+	\tm_VowelAa \uni0B85 \uni0B86 \uni0B87 \uni0B88 \uni0BBF \uni0BC0 \uni0BC1 
+	\uni0BC2 \uni0BC6 \uni0BC7 \uni0BC8 \uni0BCD \uni0009 ];
 @GDEF_Mark = [\tm_Anusvara ];
 
 table GDEF {
