@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acute.case" format="1">
+  <advance width="161"/>
+  <outline>
+    <contour>
+      <point x="88" y="902" type="line"/>
+      <point x="103" y="920"/>
+      <point x="123" y="916"/>
+      <point x="130" y="902" type="qcurve"/>
+      <point x="72" y="738" type="line"/>
+      <point x="29" y="761" type="line"/>
+    </contour>
+  </outline>
+</glyph>
