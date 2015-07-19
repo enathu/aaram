@@ -782,5 +782,21 @@
     <string>tm_T_U_.glif</string>
     <key>tm_NU</key>
     <string>tm_N_U_.glif</string>
+    <key>tm_NnnU</key>
+    <string>tm_N_nnU_.glif</string>
+    <key>tm_MU</key>
+    <string>tm_M_U_.glif</string>
+    <key>tm_RU</key>
+    <string>tm_R_U_.glif</string>
+    <key>tm_RrU</key>
+    <string>tm_R_rU_.glif</string>
+    <key>tm_LU</key>
+    <string>tm_L_U_.glif</string>
+    <key>tm_LlU</key>
+    <string>tm_L_lU_.glif</string>
+    <key>tm_LllU</key>
+    <string>tm_L_llU_.glif</string>
+    <key>tm_KUu</key>
+    <string>tm_K_U_u.glif</string>
   </dict>
 </plist>
