@@ -820,5 +820,11 @@
     <string>tm_V_U_u.glif</string>
     <key>tm_KSsa</key>
     <string>tm_K_S_sa.glif</string>
+    <key>tm_TtI</key>
+    <string>tm_T_tI_.glif</string>
+    <key>tm_TtIi</key>
+    <string>tm_T_tI_i.glif</string>
+    <key>tm_Shree</key>
+    <string>tm_S_hree.glif</string>
   </dict>
 </plist>
