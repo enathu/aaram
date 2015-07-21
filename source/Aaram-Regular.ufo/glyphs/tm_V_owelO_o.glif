@@ -5,6 +5,5 @@
   <outline>
     <component base="tm_VowelEe"/>
     <component base="tm_VowelAa" xOffset="1200"/>
-    <component base="uni25CC" xOffset="622"/>
   </outline>
 </glyph>

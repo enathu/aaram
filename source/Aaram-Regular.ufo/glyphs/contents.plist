@@ -692,6 +692,24 @@
     <string>tm_O_m.glif</string>
     <key>tm_AuLengthMark</key>
     <string>tm_A_uL_engthM_ark.glif</string>
+    <key>tm_Zero</key>
+    <string>tm_Z_ero.glif</string>
+    <key>tm_One</key>
+    <string>tm_O_ne.glif</string>
+    <key>tm_Two</key>
+    <string>tm_T_wo.glif</string>
+    <key>tm_Three</key>
+    <string>tm_T_hree.glif</string>
+    <key>tm_Four</key>
+    <string>tm_F_our.glif</string>
+    <key>tm_Five</key>
+    <string>tm_F_ive.glif</string>
+    <key>tm_Six</key>
+    <string>tm_S_ix.glif</string>
+    <key>tm_Seven</key>
+    <string>tm_S_even.glif</string>
+    <key>tm_Eight</key>
+    <string>tm_E_ight.glif</string>
     <key>endash</key>
     <string>endash.glif</string>
     <key>emdash</key>
@@ -730,8 +748,6 @@
     <string>E_uro.glif</string>
     <key>trademark</key>
     <string>trademark.glif</string>
-    <key>uni25CC</key>
-    <string>uni25C_C_.glif</string>
     <key>commaaccent</key>
     <string>commaaccent.glif</string>
     <key>ff</key>
