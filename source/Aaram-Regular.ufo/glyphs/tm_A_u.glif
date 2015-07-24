@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tm_Au" format="1">
+<glyph name="uni0B94" format="1">
   <advance width="1482"/>
   <unicode hex="0B94"/>
   <outline>
-    <component base="tm_O"/>
-    <component base="tm_Lla" xOffset="664" yOffset="-5"/>
+    <component base="uni0B92"/>
+    <component base="uni0BB3" xOffset="664" yOffset="-5"/>
   </outline>
 </glyph>
