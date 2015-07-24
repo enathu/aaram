@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0BCC" format="1">
+<glyph name="tm_VowelAu" format="1">
   <advance width="2528"/>
   <unicode hex="0BCC"/>
   <outline>
-    <component base="uni0BC6" xOffset="5"/>
-    <component base="uni0BD7" xOffset="1311"/>
+    <component base="tm_VowelE" xOffset="5"/>
+    <component base="tm_AuLengthMark" xOffset="1311"/>
   </outline>
 </glyph>
