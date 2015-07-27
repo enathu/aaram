@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tm_VowelOo" format="1">
+<glyph name="uni0BCB" format="1">
   <advance width="1628"/>
   <unicode hex="0BCB"/>
   <outline>
-    <component base="tm_VowelEe"/>
-    <component base="tm_VowelAa" xOffset="1200"/>
+    <component base="uni0BC7"/>
+    <component base="uni0BBE" xOffset="1200"/>
+    <component base="uni25CC" xOffset="622"/>
   </outline>
 </glyph>
