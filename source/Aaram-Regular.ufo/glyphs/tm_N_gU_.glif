@@ -1,19 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tm_Nga" format="1">
+<glyph name="tm_NgU" format="1">
   <advance width="586"/>
-  <unicode hex="0B99"/>
   <outline>
     <contour>
       <point x="340" y="0" type="move" name="MARKS_CLASS_0_LUT0_SUB0"/>
     </contour>
     <contour>
+      <point x="479" y="-136" type="curve" smooth="yes"/>
+      <point x="479" y="-70.2857"/>
+      <point x="480" y="-9.33462"/>
+      <point x="480" y="48" type="curve" smooth="yes"/>
+      <point x="480" y="51.7241"/>
+      <point x="480" y="54.8276"/>
+      <point x="480" y="57" type="curve"/>
+      <point x="479" y="72"/>
+      <point x="476" y="61"/>
+      <point x="484" y="79" type="curve"/>
+      <point x="491" y="102.806"/>
+      <point x="497.293" y="134.232"/>
+      <point x="508" y="161" type="curve" smooth="yes"/>
+      <point x="512" y="171"/>
+      <point x="514" y="177"/>
+      <point x="514" y="179" type="curve"/>
+      <point x="515" y="183"/>
+      <point x="515" y="183"/>
+      <point x="516" y="179" type="curve"/>
+      <point x="517" y="174"/>
+      <point x="517" y="171"/>
+      <point x="517" y="170" type="curve" smooth="yes"/>
+      <point x="517" y="8" type="line"/>
+      <point x="517" y="-167" type="line" smooth="yes"/>
+      <point x="517" y="-178"/>
+      <point x="508" y="-185"/>
+      <point x="497" y="-185" type="curve" smooth="yes"/>
+      <point x="488" y="-185"/>
+      <point x="479" y="-178"/>
+      <point x="479" y="-167" type="curve" smooth="yes"/>
+      <point x="479" y="-160"/>
+      <point x="479" y="-149"/>
+    </contour>
+    <contour>
       <point x="517" y="517" type="curve" smooth="yes"/>
       <point x="517" y="106" type="line" smooth="yes"/>
       <point x="517" y="77"/>
-      <point x="505" y="51"/>
+      <point x="504.507" y="51.4808"/>
       <point x="486" y="32" type="curve" smooth="yes"/>
       <point x="467" y="12"/>
-      <point x="440" y="0"/>
+      <point x="440" y="-3.55136e-015"/>
       <point x="411" y="0" type="curve" smooth="yes"/>
       <point x="303" y="0" type="line" smooth="yes"/>
       <point x="301" y="0"/>

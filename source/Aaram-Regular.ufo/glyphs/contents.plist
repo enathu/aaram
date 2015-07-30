@@ -868,5 +868,27 @@
     <string>zdotaccent.glif</string>
     <key>zero</key>
     <string>zero.glif</string>
+    <key>tm_NgU</key>
+    <string>tm_N_gU_.glif</string>
+    <key>tm_NyUu</key>
+    <string>tm_N_yU_u.glif</string>
+    <key>tm_NnUu</key>
+    <string>tm_N_nU_u.glif</string>
+    <key>tm_TUu</key>
+    <string>tm_T_U_u.glif</string>
+    <key>tm_NUu</key>
+    <string>tm_N_U_u.glif</string>
+    <key>tm_PU</key>
+    <string>tm_P_U_.glif</string>
+    <key>tm_YU</key>
+    <string>tm_Y_U_.glif</string>
+    <key>tm_LUu</key>
+    <string>tm_L_U_u.glif</string>
+    <key>tm_VU</key>
+    <string>tm_V_U_.glif</string>
+    <key>tm_RrUu</key>
+    <string>tm_R_rU_u.glif</string>
+    <key>tm_NnnUu</key>
+    <string>tm_N_nnU_u.glif</string>
   </dict>
 </plist>
