@@ -1,90 +1,219 @@
-languagesystem latn dflt;
+languagesystem DFLT dflt;
+languagesystem taml dflt;
+languagesystem tml2 dflt;
 
+
+# GSUB 
+
+
+lookup akhands {
+  lookupflag 0;
+    sub \tm_Ka \tm_Virama \tm_Ssa  by \tm_KSsa;
+    sub \tm_Sa \tm_Virama \tm_Ra \tm_VowelIi  by \tm_Shree;
+    sub \tm_Sha \tm_Virama \tm_Ra \tm_VowelIi  by \tm_Shree;
+} akhands;
+
+lookup above_base_sub_1 {
+  lookupflag 0;
+    sub \tm_Tta \tm_VowelI  by \tm_TtI;
+    sub \tm_Tta \tm_VowelIi  by \tm_TtIi;
+} above_base_sub_1;
+
+lookup post_base_sub_1 {
+  lookupflag 0;
+    sub \tm_Ca \tm_VowelU  by \tm_CU;
+    sub \tm_Ka \tm_VowelU  by \tm_KU;
+    sub \tm_La \tm_VowelU  by \tm_LU;
+    sub \tm_Lla \tm_VowelU  by \tm_LlU;
+    sub \tm_Llla \tm_VowelU  by \tm_LllU;
+    sub \tm_Ma \tm_VowelU  by \tm_MU;
+    sub \tm_Na \tm_VowelU  by \tm_NU;
+    sub \tm_Nna \tm_VowelU  by \tm_NnU;
+    sub \tm_Nnna \tm_VowelU  by \tm_NnnU;
+    sub \tm_Nya \tm_VowelU  by \tm_NyU;
+    sub \tm_Ra \tm_VowelU  by \tm_RU;
+    sub \tm_Rra \tm_VowelU  by \tm_RrU;
+    sub \tm_Ta \tm_VowelU  by \tm_TU;
+    sub \tm_Tta \tm_VowelU  by \tm_TtU;
+} post_base_sub_1;
+
+lookup post_base_sub_2 {
+  lookupflag 0;
+    sub \tm_Ca \tm_VowelUu  by \tm_CUu;
+    sub \tm_Ka \tm_VowelUu  by \tm_KUu;
+    sub \tm_Lla \tm_VowelUu  by \tm_LlUu;
+    sub \tm_Llla \tm_VowelUu  by \tm_LllUu;
+    sub \tm_Ma \tm_VowelUu  by \tm_MUu;
+    sub \tm_Nga \tm_VowelUu  by \tm_NgUu;
+    sub \tm_Pa \tm_VowelUu  by \tm_PUu;
+    sub \tm_Ra \tm_VowelUu  by \tm_RUu;
+    sub \tm_Tta \tm_VowelUu  by \tm_TtUu;
+    sub \tm_Va \tm_VowelUu  by \tm_VUu;
+    sub \tm_Ya \tm_VowelUu  by \tm_YUu;
+} post_base_sub_2;
+
+feature akhn {
+
+ script taml;
+     language dflt ;
+      lookup akhands;
+
+ script tml2;
+     language dflt ;
+      lookup akhands;
+} akhn;
+
+feature abvs {
+
+ script taml;
+     language dflt ;
+      lookup above_base_sub_1;
+
+ script tml2;
+     language dflt ;
+      lookup above_base_sub_1;
+} abvs;
+
+feature psts {
+
+ script taml;
+     language dflt ;
+      lookup post_base_sub_1;
+      lookup post_base_sub_2;
+
+ script tml2;
+     language dflt ;
+      lookup post_base_sub_1;
+      lookup post_base_sub_2;
+} psts;
 
 # GPOS 
 
 
-lookup kernHorizontalKerninginLatinloo {
+lookup kernHorizontalKerninglookup0 {
   lookupflag 0;
     pos \M \E -8;
     pos \P \Q -39;
     pos \R \G -23;
-    pos \a \m -55;
     pos \a \b -70;
+    pos \a \m -55;
     pos \f \g -24;
     pos \l \m -24;
-    pos \uni0B94 \uni0B9A -60;
-    pos \uni0B94 \uni0B87 -40;
-    pos \uni0B94 \uni0B85 -80;
-    pos \uni0B9C \uni0BC2 -15;
-    pos \uni0B9C \uni0BC1 -15;
-    pos \uni0BB6 \uni0BC2 -70;
-    pos \uni0BB6 \uni0BC1 -70;
-    pos \uni0BB9 \uni0BC2 -40;
-    pos \uni0BB9 \uni0BC1 -40;
-} kernHorizontalKerninginLatinloo;
+    pos \tm_Au \tm_A -80;
+    pos \tm_Au \tm_Ca -60;
+    pos \tm_Au \tm_I -40;
+    pos \tm_Ha \tm_VowelU -40;
+    pos \tm_Ha \tm_VowelUu -40;
+    pos \tm_Ja \tm_VowelU -15;
+    pos \tm_Ja \tm_VowelUu -15;
+    pos \tm_Sha \tm_VowelU -70;
+    pos \tm_Sha \tm_VowelUu -70;
+} kernHorizontalKerninglookup0;
+
+lookup abvm_1 {
+  lookupflag 0;
+  markClass [\tm_Anusvara \tm_Virama ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Ca ] <anchor 289 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Ha ] <anchor 836 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Ja ] <anchor 361 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_KSsa ] <anchor 578 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Ka ] <anchor 293 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_La ] <anchor 407 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Lla ] <anchor 406 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Llla ] <anchor 375 -3> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Ma ] <anchor 307 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Na ] <anchor 254 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Nga ] <anchor 340 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Nna ] <anchor 682 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Nnna ] <anchor 527 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Nya ] <anchor 507 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Pa \tm_Rra ] <anchor 299 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Sa ] <anchor 410 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Sha ] <anchor 391 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Ssa ] <anchor 534 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Ta ] <anchor 277 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Tta ] <anchor 356 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Va ] <anchor 421 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_VowelAa ] <anchor 223 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Ya ] <anchor 314 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+} abvm_1;
 
 feature kern {
 
- script latn;
+ script DFLT;
      language dflt ;
-      lookup kernHorizontalKerninginLatinloo;
+      lookup kernHorizontalKerninglookup0;
 } kern;
-#Mark attachment classes (defined in GDEF, used in lookupflags)
 
-@GDEF_Simple = [\uni0000 \nonmarkingreturn \space \exclam \quotedbl \numbersign 
-	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus 
-	\comma \hyphen \period \slash \zero \one \two \three \four \five \six \seven \eight 
-	\nine \colon \semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J 
-	\K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright 
-	\asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u 
-	\v \w \x \y \z \braceleft \bar \braceright \asciitilde \uni00A0 \exclamdown \cent 
-	\sterling \currency \yen \brokenbar \section \dieresis \copyright \ordfeminine 
-	\guillemotleft \logicalnot \softhyphen \registered \macron \degree \plusminus 
-	\uni00B2 \uni00B3 \acute \mu \paragraph \middot.001 \cedilla \uni00B9 
-	\ordmasculine \guillemotright \onequarter \onehalf \threequarters 
-	\questiondown \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \AE 
-	\Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex 
-	\Idieresis \Eth \Ntilde \Ograve \Oacute \Ocircumflex \Otilde \Odieresis 
-	\multiply \Oslash \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \Thorn 
-	\germandbls \agrave \aacute \acircumflex \atilde \adieresis \aring \ae \ccedilla 
-	\egrave \eacute \ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis 
-	\eth \ntilde \ograve \oacute \ocircumflex \otilde \odieresis \divide \oslash 
-	\ugrave \uacute \ucircumflex \udieresis \yacute \thorn \ydieresis \Amacron 
-	\amacron \Abreve \abreve \Aogonek \aogonek \Cacute \cacute \Ccaron \ccaron 
-	\Dcaron \dcaron \Dcroat \dcroat \Emacron \emacron \Edotaccent \edotaccent 
-	\Eogonek \eogonek \Ecaron \ecaron \Gbreve \gbreve \Gcommaaccent \gcommaaccent 
-	\Imacron \imacron \Iogonek \iogonek \Idotaccent \dotlessi \Kcommaaccent 
-	\kcommaaccent \Lacute \lacute \Lcommaaccent \lcommaaccent \Lcaron \lcaron 
-	\Lslash \lslash \Nacute \nacute \Ncommaaccent \ncommaaccent \Ncaron \ncaron 
-	\Omacron \omacron \Ohungarumlaut \ohungarumlaut \OE \oe \Racute \racute 
-	\Rcommaaccent \rcommaaccent \Rcaron \rcaron \Sacute \sacute \Scedilla \scedilla 
-	\Scaron \scaron \Tcedilla \tcedilla \Tcaron \tcaron \Umacron \umacron \Uring 
-	\uring \Uhungarumlaut \uhungarumlaut \Uogonek \uogonek \Ydieresis \Zacute 
-	\zacute \Zdotaccent \zdotaccent \Zcaron \zcaron \florin \Scommaaccent 
-	\scommaaccent \Tcommaaccent \tcommaaccent \circumflex \caron \uni02C9 \breve 
-	\dotaccent \ring \ogonek \tilde \hungarumlaut \pi \uni0B83 \uni0B85 \uni0B86 
-	\uni0B87 \uni0B88 \uni0B89 \uni0B8A \uni0B8E \uni0B8F \uni0B90 \uni0B92 \uni0B93 
-	\uni0B94 \uni0B95 \uni0B99 \uni0B9A \uni0B9C \uni0B9E \uni0B9F \uni0BA3 \uni0BA4 
-	\uni0BA8 \uni0BA9 \uni0BAA \uni0BAE \uni0BAF \uni0BB0 \uni0BB1 \uni0BB2 \uni0BB3 
-	\uni0BB4 \uni0BB5 \uni0BB6 \uni0BB7 \uni0BB8 \uni0BB9 \uni0BBE \uni0BBF \uni0BC1 
-	\uni0BC2 \uni0BC6 \uni0BC7 \uni0BC8 \uni0BCA \uni0BCB \uni0BCC \uni0BD0 \uni0BD7 
-	\uni0BE6 \uni0BE7 \uni0BE8 \uni0BE9 \uni0BEA \uni0BEB \uni0BEC \uni0BED \uni0BEE 
-	\endash \emdash \quoteleft \quoteright \quotesinglbase \quotedblleft 
-	\quotedblright \quotedblbase \dagger \daggerdbl \bullet \ellipsis \perthousand 
-	\guilsinglleft \guilsinglright \fraction \uni2074 \Euro \trademark \uniF6C3 
-	\uniFB00 \uniFB01 \uniFB02 \periodcentered \uni00AD \overscore.001 \grave.case 
-	\dieresis.case \macron.case \acute.case \circumflex.case \caron.case 
-	\breve.case \dotaccent.case \ring.case \tilde.case \tm_VowelI.alt1 \tm_KU 
-	\tm_CU \tm_NyU \tm_TtU \tm_NnU \tm_TU \tm_NU \tm_NnnU \tm_MU \tm_RU \tm_RrU \tm_LU 
-	\tm_LlU \tm_LllU \tm_KUu \tm_NgUu \tm_CUu \tm_TtUu \tm_PUu \tm_MUu \tm_YUu 
-	\tm_RUu \tm_LlUu \tm_LllUu \tm_VUu \tm_KSsa \tm_TtI \tm_TtIi \tm_Shree \uni0BEF 
-	\uni0BF0 \uni0BF1 \uni0BF2 \uni0BF3 \uni0BF4 \uni0BF5 \uni0BF6 \uni0BF7 \uni0BF8 
-	\uni0BF9 \uni0BFA \uni25CC ];
-@GDEF_Mark = [\uni0B82 \uni0BC0 \uni0BCD ];
+feature abvm {
+
+ script DFLT;
+     language dflt ;
+      lookup abvm_1;
+
+ script taml;
+     language dflt ;
+      lookup abvm_1;
+
+ script tml2;
+     language dflt ;
+      lookup abvm_1;
+} abvm;
+
+@GDEF_Simple = [\A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron 
+	\Aogonek \Aring \Atilde \B \C \Cacute \Ccaron \Ccedilla \D \Dcaron \Dcroat \E 
+	\Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek 
+	\Eth \Euro \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex \Idieresis 
+	\Idotaccent \Igrave \Imacron \Iogonek \J \K \Kcommaaccent \L \Lacute \Lcaron 
+	\Lcommaaccent \Lslash \M \N \Nacute \Ncaron \Ncommaaccent \Ntilde \O \OE \Oacute 
+	\Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde \P \Q \R 
+	\Racute \Rcaron \Rcommaaccent \S \Sacute \Scaron \Scedilla \Scommaaccent \T 
+	\Tcaron \Tcedilla \Tcommaaccent \Thorn \U \Uacute \Ucircumflex \Udieresis 
+	\Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring \V \W \X \Y \Yacute \Ydieresis \Z 
+	\Zacute \Zcaron \Zdotaccent \a \aacute \abreve \acircumflex \acute \acute.case 
+	\adieresis \ae \agrave \amacron \ampersand \aogonek \aring \asciicircum 
+	\asciitilde \asterisk \at \atilde \b \backslash \bar \braceleft \braceright 
+	\bracketleft \bracketright \breve \breve.case \brokenbar \bullet \c \cacute 
+	\caron \caron.case \ccaron \ccedilla \cedilla \cent \circumflex 
+	\circumflex.case \colon \comma \commaaccent \copyright \currency \d \dagger 
+	\daggerdbl \dcaron \dcroat \degree \dieresis \dieresis.case \divide \dollar 
+	\dotaccent \dotaccent.case \dotlessi \e \eacute \ecaron \ecircumflex \edieresis 
+	\edotaccent \egrave \eight \ellipsis \emacron \emdash \endash \eogonek \equal 
+	\eth \exclam \exclamdown \f \ff \fi \five \fl \florin \four \foursuperior \fraction 
+	\g \gbreve \gcommaaccent \germandbls \grave \grave.case \greater \guillemotleft 
+	\guillemotright \guilsinglleft \guilsinglright \h \hungarumlaut \hyphen \i 
+	\iacute \icircumflex \idieresis \igrave \imacron \iogonek \j \k \kcommaaccent \l 
+	\lacute \lcaron \lcommaaccent \less \logicalnot \lslash \m \macron \macron.case 
+	\middot.001 \mu \multiply \n \nacute \ncaron \ncommaaccent \nine \ntilde 
+	\numbersign \o \oacute \ocircumflex \odieresis \oe \ogonek \ograve 
+	\ohungarumlaut \omacron \one \onehalf \onequarter \onesuperior \ordfeminine 
+	\ordmasculine \oslash \otilde \overscore.001 \p \paragraph \parenleft 
+	\parenright \percent \period \periodcentered \perthousand \pi \plus \plusminus 
+	\q \question \questiondown \quotedbl \quotedblbase \quotedblleft 
+	\quotedblright \quoteleft \quoteright \quotesinglbase \quotesingle \r \racute 
+	\rcaron \rcommaaccent \registered \ring \ring.case \s \sacute \scaron \scedilla 
+	\scommaaccent \section \semicolon \seven \six \slash \softhyphen \space 
+	\sterling \t \tcaron \tcedilla \tcommaaccent \thorn \three \threequarters 
+	\threesuperior \tilde \tilde.case \tm_A \tm_Aa \tm_Ai \tm_Au \tm_AuLengthMark 
+	\tm_Ca \tm_E \tm_Ee \tm_Eight \tm_Enn \tm_Five \tm_Four \tm_Ha \tm_Hundred \tm_I 
+	\tm_Ii \tm_Ja \tm_Ka \tm_La \tm_Lla \tm_Llla \tm_Ma \tm_Maatham \tm_Merpadi 
+	\tm_Na \tm_Naal \tm_Nga \tm_Nine \tm_Nna \tm_Nnna \tm_Nya \tm_O \tm_Om \tm_One 
+	\tm_Oo \tm_Pa \tm_Patru \tm_Ra \tm_Rra \tm_Rupee \tm_Sa \tm_Seven \tm_Sha \tm_Six 
+	\tm_Ssa \tm_Ta \tm_Ten \tm_Thousand \tm_Three \tm_Tta \tm_Two \tm_U \tm_Uu \tm_Va 
+	\tm_Varavu \tm_Varudam \tm_Visarga \tm_VowelAa \tm_VowelAi \tm_VowelAu 
+	\tm_VowelE \tm_VowelEe \tm_VowelI \tm_VowelI.alt1 \tm_VowelIi \tm_VowelO 
+	\tm_VowelOo \tm_VowelU \tm_VowelUu \tm_Ya \tm_Zero \trademark \two \twosuperior 
+	\u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \underscore 
+	\uni0000 \uni000D \uni00A0 \uni00AD \uni02C9 \uni25CC \uogonek \uring \v \w \x \y 
+	\yacute \ydieresis \yen \z \zacute \zcaron \zdotaccent \zero ];
+@GDEF_Ligature = [\tm_CU \tm_CUu \tm_KSsa \tm_KU \tm_KUu \tm_LU \tm_LlU \tm_LlUu 
+	\tm_LllU \tm_LllUu \tm_MU \tm_MUu \tm_NU \tm_NgUu \tm_NnU \tm_NnnU \tm_NyU 
+	\tm_PUu \tm_RU \tm_RUu \tm_RrU \tm_Shree \tm_TU \tm_TtI \tm_TtIi \tm_TtU \tm_TtUu 
+	\tm_VUu \tm_YUu ];
+@GDEF_Mark = [\tm_Anusvara \tm_Virama ];
 
 table GDEF {
-  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
 
 } GDEF;
 
