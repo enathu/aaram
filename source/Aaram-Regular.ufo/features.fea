@@ -9,8 +9,8 @@ languagesystem tml2 dflt;
 lookup akhands {
   lookupflag 0;
     sub \tm_Ka \tm_Virama \tm_Ssa  by \tm_KSsa;
-    sub \tm_Sa \tm_Virama \tm_Ra \tm_VowelIi  by \tm_Shree;
     sub \tm_Sha \tm_Virama \tm_Ra \tm_VowelIi  by \tm_Shree;
+    sub \tm_Sa \tm_Virama \tm_Ra \tm_VowelIi  by \tm_Shree;
 } akhands;
 
 lookup above_base_sub_1 {
@@ -110,6 +110,26 @@ lookup kernHorizontalKerninglookup0 {
     pos \tm_Sha \tm_VowelUu -70;
 } kernHorizontalKerninglookup0;
 
+lookup pos_pair_kern_0 {
+  lookupflag 0;
+    pos \M \E -8;
+    pos \P \Q -39;
+    pos \R \G -23;
+    pos \a \b -70;
+    pos \a \m -55;
+    pos \f \g -24;
+    pos \l \m -24;
+    pos \tm_Au \tm_A -80;
+    pos \tm_Au \tm_Ca -60;
+    pos \tm_Au \tm_I -40;
+    pos \tm_Ha \tm_VowelU -40;
+    pos \tm_Ha \tm_VowelUu -40;
+    pos \tm_Ja \tm_VowelU -15;
+    pos \tm_Ja \tm_VowelUu -15;
+    pos \tm_Sha \tm_VowelU -70;
+    pos \tm_Sha \tm_VowelUu -70;
+} pos_pair_kern_0;
+
 lookup abvm_1 {
   lookupflag 0;
   markClass [\tm_Anusvara \tm_Virama ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
@@ -119,9 +139,9 @@ lookup abvm_1 {
   pos base [\tm_KSsa ] <anchor 578 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Ka ] <anchor 293 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_La ] <anchor 407 0> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Lla ] <anchor 406 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Lla ] <anchor 370 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Llla ] <anchor 375 -3> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Ma ] <anchor 307 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Ma ] <anchor 381 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Na ] <anchor 254 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Nga ] <anchor 340 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Nna ] <anchor 682 0> mark @MARKS_CLASS_0_LUT0_SUB0;
@@ -143,6 +163,7 @@ feature kern {
  script DFLT;
      language dflt ;
       lookup kernHorizontalKerninglookup0;
+      lookup pos_pair_kern_0;
 } kern;
 
 feature abvm {
@@ -215,5 +236,6 @@ feature abvm {
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
 
+  LigatureCaretByPos \tm_NU 15;
 } GDEF;
 
