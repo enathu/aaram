@@ -22,7 +22,7 @@
       <key>b</key>
       <integer>-70</integer>
       <key>m</key>
-      <integer>-55</integer>
+      <integer>-11</integer>
     </dict>
     <key>f</key>
     <dict>
@@ -48,7 +48,7 @@
       <key>tm_VowelU</key>
       <integer>-40</integer>
       <key>tm_VowelUu</key>
-      <integer>-40</integer>
+      <integer>0</integer>
     </dict>
     <key>tm_Ja</key>
     <dict>
@@ -60,9 +60,9 @@
     <key>tm_Sha</key>
     <dict>
       <key>tm_VowelU</key>
-      <integer>-70</integer>
+      <integer>-10</integer>
       <key>tm_VowelUu</key>
-      <integer>-70</integer>
+      <integer>-10</integer>
     </dict>
   </dict>
 </plist>

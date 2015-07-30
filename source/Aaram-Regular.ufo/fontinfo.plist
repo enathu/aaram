@@ -6,6 +6,8 @@
     <string>Aaram</string>
     <key>styleName</key>
     <string>Regular</string>
+    <key>styleMapFamilyName</key>
+    <string>Aaram Regular</string>
     <key>styleMapStyleName</key>
     <string>regular</string>
     <key>versionMajor</key>

@@ -95,19 +95,18 @@ lookup kernHorizontalKerninglookup0 {
     pos \M \E -8;
     pos \P \Q -39;
     pos \R \G -23;
-    pos \a \b -70;
-    pos \a \m -55;
+    pos \a \m -11;
     pos \f \g -24;
     pos \l \m -24;
-    pos \tm_Au \tm_A -80;
-    pos \tm_Au \tm_Ca -60;
     pos \tm_Au \tm_I -40;
+    pos \tm_Au \tm_Ca -60;
+    pos \tm_Au \tm_A -80;
+    pos \tm_Ha \tm_VowelUu 0;
     pos \tm_Ha \tm_VowelU -40;
-    pos \tm_Ha \tm_VowelUu -40;
-    pos \tm_Ja \tm_VowelU -15;
     pos \tm_Ja \tm_VowelUu -15;
-    pos \tm_Sha \tm_VowelU -70;
-    pos \tm_Sha \tm_VowelUu -70;
+    pos \tm_Ja \tm_VowelU -15;
+    pos \tm_Sha \tm_VowelUu -10;
+    pos \tm_Sha \tm_VowelU -10;
 } kernHorizontalKerninglookup0;
 
 lookup pos_pair_kern_0 {
@@ -180,6 +179,7 @@ feature abvm {
      language dflt ;
       lookup abvm_1;
 } abvm;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron 
 	\Aogonek \Aring \Atilde \B \C \Cacute \Ccaron \Ccedilla \D \Dcaron \Dcroat \E 
