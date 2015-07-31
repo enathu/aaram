@@ -109,6 +109,10 @@ lookup kernHorizontalKerninglookup0 {
     pos \tm_Ja \tm_VowelU -15;
     pos \tm_Sha \tm_VowelUu -10;
     pos \tm_Sha \tm_VowelU -10;
+    pos \tm_Ssa \tm_VowelUu -50;
+    pos \tm_Ssa \tm_VowelU -50;
+    pos \tm_KSsa \tm_VowelUu -50;
+    pos \tm_KSsa \tm_VowelU -50;
 } kernHorizontalKerninglookup0;
 
 lookup contextual_alternates_1 {

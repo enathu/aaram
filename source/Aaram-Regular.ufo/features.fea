@@ -149,7 +149,7 @@ lookup abvm_1 {
   pos base [\tm_Ta ] <anchor 277 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Tta ] <anchor 356 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Va \tm_VU ] <anchor 421 -2> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_VowelAa ] <anchor 223 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_VowelAa ] <anchor 193 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Ya \tm_YU ] <anchor 314 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_NgU ] <anchor 340 0> mark @MARKS_CLASS_0_LUT0_SUB0;
 } abvm_1;
@@ -165,12 +165,16 @@ lookup kernHorizontalKerninglookup0 {
     pos \tm_Au \tm_I -40;
     pos \tm_Au \tm_Ca -60;
     pos \tm_Au \tm_A -80;
-    pos \tm_Ha \tm_VowelUu 0;
+    pos \tm_Ha \tm_VowelUu 156;
     pos \tm_Ha \tm_VowelU -40;
     pos \tm_Ja \tm_VowelUu -15;
     pos \tm_Ja \tm_VowelU -15;
+    pos \tm_KSsa \tm_VowelUu -50;
+    pos \tm_KSsa \tm_VowelU -50;
     pos \tm_Sha \tm_VowelUu -10;
     pos \tm_Sha \tm_VowelU -10;
+    pos \tm_Ssa \tm_VowelUu -60;
+    pos \tm_Ssa \tm_VowelU -60;
 } kernHorizontalKerninglookup0;
 
 feature abvm {
