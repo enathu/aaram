@@ -358,7 +358,7 @@
     <string>exclamdown.glif</string>
     <key>f</key>
     <string>f.glif</string>
-    <key>ff</key>
+    <key>uniFB00</key>
     <string>ff.glif</string>
     <key>fi</key>
     <string>fi.glif</string>
@@ -370,7 +370,7 @@
     <string>florin.glif</string>
     <key>four</key>
     <string>four.glif</string>
-    <key>foursuperior</key>
+    <key>uni2074</key>
     <string>foursuperior.glif</string>
     <key>fraction</key>
     <string>fraction.glif</string>
@@ -442,7 +442,7 @@
     <string>macron.glif</string>
     <key>macron.case</key>
     <string>macron.case.glif</string>
-    <key>middot.001</key>
+    <key>periodcentered</key>
     <string>middot.001.glif</string>
     <key>mu</key>
     <string>mu.glif</string>
@@ -830,7 +830,7 @@
     <string>underscore.glif</string>
     <key>uni0000</key>
     <string>uni0000.glif</string>
-    <key>uni000D</key>
+    <key>nonmarkingreturn</key>
     <string>uni000D_.glif</string>
     <key>uni00A0</key>
     <string>uni00A_0.glif</string>
@@ -890,5 +890,119 @@
     <string>tm_R_rU_u.glif</string>
     <key>tm_NnnUu</key>
     <string>tm_N_nnU_u.glif</string>
+    <key>uni016D</key>
+    <string>uni016D_.glif</string>
+    <key>uni015D</key>
+    <string>uni015D_.glif</string>
+    <key>uni011D</key>
+    <string>uni011D_.glif</string>
+    <key>uni0121</key>
+    <string>uni0121.glif</string>
+    <key>uni010A</key>
+    <string>uni010A_.glif</string>
+    <key>uni0108</key>
+    <string>uni0108.glif</string>
+    <key>uni0120</key>
+    <string>uni0120.glif</string>
+    <key>uni011C</key>
+    <string>uni011C_.glif</string>
+    <key>uni016C</key>
+    <string>uni016C_.glif</string>
+    <key>uni015C</key>
+    <string>uni015C_.glif</string>
+    <key>uni010B</key>
+    <string>uni010B_.glif</string>
+    <key>uni0109</key>
+    <string>uni0109.glif</string>
+    <key>uni0135</key>
+    <string>uni0135.glif</string>
+    <key>uni0125</key>
+    <string>uni0125.glif</string>
+    <key>uni0124</key>
+    <string>uni0124.glif</string>
+    <key>uni0134</key>
+    <string>uni0134.glif</string>
+    <key>uni0132</key>
+    <string>uni0132.glif</string>
+    <key>uni0133</key>
+    <string>uni0133.glif</string>
+    <key>uni014E</key>
+    <string>uni014E_.glif</string>
+    <key>uni014F</key>
+    <string>uni014F_.glif</string>
+    <key>uni01C4</key>
+    <string>uni01C_4.glif</string>
+    <key>uni01C5</key>
+    <string>uni01C_5.glif</string>
+    <key>uni01F4</key>
+    <string>uni01F_4.glif</string>
+    <key>uni01F5</key>
+    <string>uni01F_5.glif</string>
+    <key>uni0202</key>
+    <string>uni0202.glif</string>
+    <key>uni0203</key>
+    <string>uni0203.glif</string>
+    <key>uni0206</key>
+    <string>uni0206.glif</string>
+    <key>uni0207</key>
+    <string>uni0207.glif</string>
+    <key>uni020A</key>
+    <string>uni020A_.glif</string>
+    <key>uni020B</key>
+    <string>uni020B_.glif</string>
+    <key>uni020E</key>
+    <string>uni020E_.glif</string>
+    <key>uni020F</key>
+    <string>uni020F_.glif</string>
+    <key>uni01C7</key>
+    <string>uni01C_7.glif</string>
+    <key>uni01C8</key>
+    <string>uni01C_8.glif</string>
+    <key>uni01CA</key>
+    <string>uni01C_A_.glif</string>
+    <key>uni01CB</key>
+    <string>uni01C_B_.glif</string>
+    <key>uni01F1</key>
+    <string>uni01F_1.glif</string>
+    <key>uni01F2</key>
+    <string>uni01F_2.glif</string>
+    <key>uni030F</key>
+    <string>uni030F_.glif</string>
+    <key>uni0200</key>
+    <string>uni0200.glif</string>
+    <key>uni0201</key>
+    <string>uni0201.glif</string>
+    <key>minus</key>
+    <string>minus.glif</string>
+    <key>uni0204</key>
+    <string>uni0204.glif</string>
+    <key>uni0205</key>
+    <string>uni0205.glif</string>
+    <key>uni0208</key>
+    <string>uni0208.glif</string>
+    <key>uni0209</key>
+    <string>uni0209.glif</string>
+    <key>uni020C</key>
+    <string>uni020C_.glif</string>
+    <key>uni020D</key>
+    <string>uni020D_.glif</string>
+    <key>uni0237</key>
+    <string>uni0237.glif</string>
+    <key>uni0964</key>
+    <string>uni0964.glif</string>
+    <key>uni0965</key>
+    <string>uni0965.glif</string>
+    <key>uni013F</key>
+    <string>uni013F_.glif</string>
+    <key>uni0140</key>
+    <string>uni0140.glif</string>
+    <key>uni0128</key>
+    <string>uni0128.glif</string>
+    <key>uni0129</key>
+    <string>uni0129.glif</string>
+    <key>uni012C</key>
+    <string>uni012C_.glif</string>
+    <key>uni012D</key>
+    <string>uni012D_.glif</string>
   </dict>
 </plist>

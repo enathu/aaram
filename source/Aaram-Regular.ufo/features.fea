@@ -219,12 +219,12 @@ feature kern {
 	\daggerdbl \dcaron \dcroat \degree \dieresis \dieresis.case \divide \dollar 
 	\dotaccent \dotaccent.case \dotlessi \e \eacute \ecaron \ecircumflex \edieresis 
 	\edotaccent \egrave \eight \ellipsis \emacron \emdash \endash \eogonek \equal 
-	\eth \exclam \exclamdown \f \ff \fi \five \fl \florin \four \foursuperior \fraction 
+	\eth \exclam \exclamdown \f \uniFB00 \fi \five \fl \florin \four \uni2074 \fraction 
 	\g \gbreve \gcommaaccent \germandbls \grave \grave.case \greater \guillemotleft 
 	\guillemotright \guilsinglleft \guilsinglright \h \hungarumlaut \hyphen \i 
 	\iacute \icircumflex \idieresis \igrave \imacron \iogonek \j \k \kcommaaccent \l 
 	\lacute \lcaron \lcommaaccent \less \logicalnot \lslash \m \macron \macron.case 
-	\middot.001 \mu \multiply \n \nacute \ncaron \ncommaaccent \nine \ntilde 
+	\periodcentered \mu \multiply \n \nacute \ncaron \ncommaaccent \nine \ntilde 
 	\numbersign \o \oacute \ocircumflex \odieresis \oe \ogonek \ograve 
 	\ohungarumlaut \omacron \one \onehalf \onequarter \onesuperior \ordfeminine 
 	\ordmasculine \oslash \otilde \overscore.001 \p \paragraph \parenleft 
@@ -244,8 +244,15 @@ feature kern {
 	\tm_VowelE \tm_VowelEe \tm_VowelI \tm_VowelI.alt1 \tm_VowelIi \tm_VowelO 
 	\tm_VowelOo \tm_VowelU \tm_VowelUu \tm_Ya \tm_Zero \trademark \two \twosuperior 
 	\u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \underscore 
-	\uni0000 \uni000D \uni00A0 \uni00AD \uni02C9 \uni25CC \uogonek \uring \v \w \x \y 
-	\yacute \ydieresis \yen \z \zacute \zcaron \zdotaccent \zero ];
+	\uni0000 \nonmarkingreturn \uni00A0 \uni00AD \uni02C9 \uni25CC \uogonek \uring 
+	\v \w \x \y \yacute \ydieresis \yen \z \zacute \zcaron \zdotaccent \zero \uni016D 
+	\uni015D \uni011D \uni0121 \uni010A \uni0108 \uni0120 \uni011C \uni016C \uni015C 
+	\uni010B \uni0109 \uni0135 \uni0125 \uni0124 \uni0134 \uni0132 \uni0133 \uni014E 
+	\uni014F \uni01C4 \uni01C5 \uni01F4 \uni01F5 \uni0202 \uni0203 \uni0206 \uni0207 
+	\uni020A \uni020B \uni020E \uni020F \uni01C7 \uni01C8 \uni01CA \uni01CB \uni01F1 
+	\uni01F2 \uni030F \uni0200 \uni0201 \minus \uni0204 \uni0205 \uni0208 \uni0209 
+	\uni020C \uni020D \uni0237 \uni0964 \uni0965 \uni013F \uni0140 \uni0128 \uni0129 
+	\uni012C \uni012D ];
 @GDEF_Ligature = [\tm_CU \tm_CUu \tm_KSsa \tm_KU \tm_KUu \tm_LU \tm_LlU \tm_LlUu 
 	\tm_LllU \tm_LllUu \tm_MU \tm_MUu \tm_NU \tm_NgUu \tm_NnU \tm_NnnU \tm_NyU 
 	\tm_PUu \tm_RU \tm_RUu \tm_RrU \tm_Shree \tm_TU \tm_TtI \tm_TtIi \tm_TtU \tm_TtUu 
