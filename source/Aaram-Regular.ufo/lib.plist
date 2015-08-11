@@ -440,10 +440,10 @@
       <string>Tcedilla</string>
       <string>tcedilla</string>
     </array>
-    <key>com.schriftgestaltung.fontMasterID</key>
-    <string>EE2A088C-A2DC-41CC-85C8-453F38414025</string>
     <key>com.schriftgestaltung.useNiceNames</key>
     <integer>0</integer>
+    <key>com.schriftgestaltung.fontMasterID</key>
+    <string>EE2A088C-A2DC-41CC-85C8-453F38414025</string>
     <key>com.schriftgestaltung.widthValue</key>
     <real>5</real>
   </dict>

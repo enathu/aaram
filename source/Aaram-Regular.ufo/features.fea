@@ -263,6 +263,7 @@ feature kern {
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
 
+  LigatureCaretByPos \tm_LllU 1;
   LigatureCaretByPos \tm_NU 15;
 } GDEF;
 
