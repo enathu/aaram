@@ -1004,5 +1004,15 @@
     <string>uni012C_.glif</string>
     <key>uni012D</key>
     <string>uni012D_.glif</string>
+    <key>infinity</key>
+    <string>infinity.glif</string>
+    <key>lessequal</key>
+    <string>lessequal.glif</string>
+    <key>greaterequal</key>
+    <string>greaterequal.glif</string>
+    <key>radical</key>
+    <string>radical.glif</string>
+    <key>uni22C4</key>
+    <string>uni22C_4.glif</string>
   </dict>
 </plist>
