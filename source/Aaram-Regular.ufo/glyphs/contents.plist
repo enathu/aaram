@@ -1014,5 +1014,17 @@
     <string>radical.glif</string>
     <key>uni22C4</key>
     <string>uni22C_4.glif</string>
+    <key>approxequal</key>
+    <string>approxequal.glif</string>
+    <key>notequal</key>
+    <string>notequal.glif</string>
+    <key>uni2207</key>
+    <string>uni2207.glif</string>
+    <key>product</key>
+    <string>product.glif</string>
+    <key>summation</key>
+    <string>summation.glif</string>
+    <key>partialdiff</key>
+    <string>partialdiff.glif</string>
   </dict>
 </plist>
