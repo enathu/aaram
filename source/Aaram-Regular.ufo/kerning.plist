@@ -46,7 +46,7 @@
       <key>tm_VowelU</key>
       <integer>-40</integer>
       <key>tm_VowelUu</key>
-      <integer>156</integer>
+      <integer>0</integer>
     </dict>
     <key>tm_Ja</key>
     <dict>
@@ -72,9 +72,9 @@
     <key>tm_Ssa</key>
     <dict>
       <key>tm_VowelUu</key>
-      <integer>-60</integer>
+      <integer>-50</integer>
       <key>tm_VowelU</key>
-      <integer>-60</integer>
+      <integer>-50</integer>
     </dict>
   </dict>
 </plist>

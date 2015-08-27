@@ -165,7 +165,7 @@ lookup kernHorizontalKerninglookup0 {
     pos \tm_Au \tm_I -40;
     pos \tm_Au \tm_Ca -60;
     pos \tm_Au \tm_A -80;
-    pos \tm_Ha \tm_VowelUu 156;
+    pos \tm_Ha \tm_VowelUu 0;
     pos \tm_Ha \tm_VowelU -40;
     pos \tm_Ja \tm_VowelUu -15;
     pos \tm_Ja \tm_VowelU -15;
@@ -173,8 +173,8 @@ lookup kernHorizontalKerninglookup0 {
     pos \tm_KSsa \tm_VowelU -50;
     pos \tm_Sha \tm_VowelUu -10;
     pos \tm_Sha \tm_VowelU -10;
-    pos \tm_Ssa \tm_VowelUu -60;
-    pos \tm_Ssa \tm_VowelU -60;
+    pos \tm_Ssa \tm_VowelUu -50;
+    pos \tm_Ssa \tm_VowelU -50;
 } kernHorizontalKerninglookup0;
 
 feature abvm {
@@ -202,58 +202,57 @@ feature kern {
 
 @GDEF_Simple = [\A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron 
 	\Aogonek \Aring \Atilde \B \C \Cacute \Ccaron \Ccedilla \D \Dcaron \Dcroat \E 
-	\Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek 
-	\Eth \Euro \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex \Idieresis 
-	\Idotaccent \Igrave \Imacron \Iogonek \J \K \Kcommaaccent \L \Lacute \Lcaron 
-	\Lcommaaccent \Lslash \M \N \Nacute \Ncaron \Ncommaaccent \Ntilde \O \OE \Oacute 
-	\Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde \P \Q \R 
-	\Racute \Rcaron \Rcommaaccent \S \Sacute \Scaron \Scedilla \Scommaaccent \T 
-	\Tcaron \Tcedilla \Tcommaaccent \Thorn \U \Uacute \Ucircumflex \Udieresis 
-	\Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring \V \W \X \Y \Yacute \Ydieresis \Z 
-	\Zacute \Zcaron \Zdotaccent \a \aacute \abreve \acircumflex \acute \acute.case 
-	\adieresis \ae \agrave \amacron \ampersand \aogonek \aring \asciicircum 
-	\asciitilde \asterisk \at \atilde \b \backslash \bar \braceleft \braceright 
-	\bracketleft \bracketright \breve \breve.case \brokenbar \bullet \c \cacute 
-	\caron \caron.case \ccaron \ccedilla \cedilla \cent \circumflex 
-	\circumflex.case \colon \comma \commaaccent \copyright \currency \d \dagger 
-	\daggerdbl \dcaron \dcroat \degree \dieresis \dieresis.case \divide \dollar 
-	\dotaccent \dotaccent.case \dotlessi \e \eacute \ecaron \ecircumflex \edieresis 
-	\edotaccent \egrave \eight \ellipsis \emacron \emdash \endash \eogonek \equal 
-	\eth \exclam \exclamdown \f \uniFB00 \fi \five \fl \florin \four \uni2074 \fraction 
-	\g \gbreve \gcommaaccent \germandbls \grave \grave.case \greater \guillemotleft 
-	\guillemotright \guilsinglleft \guilsinglright \h \hungarumlaut \hyphen \i 
-	\iacute \icircumflex \idieresis \igrave \imacron \iogonek \j \k \kcommaaccent \l 
-	\lacute \lcaron \lcommaaccent \less \logicalnot \lslash \m \macron \macron.case 
-	\periodcentered \mu \multiply \n \nacute \ncaron \ncommaaccent \nine \ntilde 
-	\numbersign \o \oacute \ocircumflex \odieresis \oe \ogonek \ograve 
+	\Eacute \Ecaron \Ecircumflex \Edieresis \uni0116 \Egrave \Emacron \Eogonek \Eth 
+	\Euro \F \G \Gbreve \uni0122 \H \I \Iacute \Icircumflex \Idieresis \Idotaccent 
+	\Igrave \Imacron \Iogonek \J \K \uni0136 \L \Lacute \Lcaron \uni013B \Lslash \M \N 
+	\Nacute \Ncaron \uni0145 \Ntilde \O \OE \Oacute \Ocircumflex \Odieresis \Ograve 
+	\Ohungarumlaut \Omacron \Oslash \Otilde \P \Q \R \Racute \Rcaron \uni0156 \S 
+	\Sacute \Scaron \Scedilla \uni0218 \T \Tcaron \uni0162 \uni021A \Thorn \U \Uacute 
+	\Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring \V \W \X 
+	\Y \Yacute \Ydieresis \Z \Zacute \Zcaron \Zdotaccent \a \aacute \abreve 
+	\acircumflex \acute \acute.case \adieresis \ae \agrave \amacron \ampersand 
+	\aogonek \aring \asciicircum \asciitilde \asterisk \at \atilde \b \backslash \bar 
+	\braceleft \braceright \bracketleft \bracketright \breve \breve.case 
+	\brokenbar \uni2022 \c \cacute \caron \caron.case \ccaron \ccedilla \cedilla 
+	\cent \circumflex \circumflex.case \colon \comma \uniF6C3 \copyright \currency 
+	\d \uni2020 \uni2021 \dcaron \dcroat \degree \dieresis \dieresis.case \divide 
+	\dollar \dotaccent \dotaccent.case \dotlessi \e \eacute \ecaron \ecircumflex 
+	\edieresis \uni0117 \egrave \eight \uni2026 \emacron \emdash \endash \eogonek 
+	\equal \eth \exclam \exclamdown \f \uniFB00 \fi \five \fl \uni0192 \four \uni2074 
+	\uni2044 \g \gbreve \uni0123 \germandbls \grave \grave.case \greater 
+	\guillemotleft \guillemotright \guilsinglleft \guilsinglright \h 
+	\hungarumlaut \hyphen \i \iacute \icircumflex \idieresis \igrave \imacron 
+	\iogonek \j \k \uni0137 \l \lacute \lcaron \uni013C \less \logicalnot \lslash \m 
+	\macron \macron.case \periodcentered \mu \multiply \n \nacute \ncaron \uni0146 
+	\nine \ntilde \numbersign \o \oacute \ocircumflex \odieresis \oe \ogonek \ograve 
 	\ohungarumlaut \omacron \one \onehalf \onequarter \onesuperior \ordfeminine 
 	\ordmasculine \oslash \otilde \overscore.001 \p \paragraph \parenleft 
-	\parenright \percent \period \periodcentered \perthousand \pi \plus \plusminus 
+	\parenright \percent \period \periodcentered \uni2030 \uni03C0 \plus \plusminus 
 	\q \question \questiondown \quotedbl \quotedblbase \quotedblleft 
 	\quotedblright \quoteleft \quoteright \quotesinglbase \quotesingle \r \racute 
-	\rcaron \rcommaaccent \registered \ring \ring.case \s \sacute \scaron \scedilla 
-	\scommaaccent \section \semicolon \seven \six \slash \softhyphen \space 
-	\sterling \t \tcaron \tcedilla \tcommaaccent \thorn \three \threequarters 
-	\threesuperior \tilde \tilde.case \tm_A \tm_Aa \tm_Ai \tm_Au \tm_AuLengthMark 
-	\tm_Ca \tm_E \tm_Ee \tm_Eight \tm_Enn \tm_Five \tm_Four \tm_Ha \tm_Hundred \tm_I 
-	\tm_Ii \tm_Ja \tm_Ka \tm_La \tm_Lla \tm_Llla \tm_Ma \tm_Maatham \tm_Merpadi 
-	\tm_Na \tm_Naal \tm_Nga \tm_Nine \tm_Nna \tm_Nnna \tm_Nya \tm_O \tm_Om \tm_One 
-	\tm_Oo \tm_Pa \tm_Patru \tm_Ra \tm_Rra \tm_Rupee \tm_Sa \tm_Seven \tm_Sha \tm_Six 
-	\tm_Ssa \tm_Ta \tm_Ten \tm_Thousand \tm_Three \tm_Tta \tm_Two \tm_U \tm_Uu \tm_Va 
-	\tm_Varavu \tm_Varudam \tm_Visarga \tm_VowelAa \tm_VowelAi \tm_VowelAu 
-	\tm_VowelE \tm_VowelEe \tm_VowelI \tm_VowelI.alt1 \tm_VowelIi \tm_VowelO 
-	\tm_VowelOo \tm_VowelU \tm_VowelUu \tm_Ya \tm_Zero \trademark \two \twosuperior 
-	\u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \underscore 
-	\uni0000 \nonmarkingreturn \uni00A0 \uni00AD \uni02C9 \uni25CC \uogonek \uring 
-	\v \w \x \y \yacute \ydieresis \yen \z \zacute \zcaron \zdotaccent \zero \uni016D 
-	\uni015D \uni011D \uni0121 \uni010A \uni0108 \uni0120 \uni011C \uni016C \uni015C 
-	\uni010B \uni0109 \uni0135 \uni0125 \uni0124 \uni0134 \uni0132 \uni0133 \uni014E 
-	\uni014F \uni01C4 \uni01C5 \uni01F4 \uni01F5 \uni0202 \uni0203 \uni0206 \uni0207 
-	\uni020A \uni020B \uni020E \uni020F \uni01C7 \uni01C8 \uni01CA \uni01CB \uni01F1 
-	\uni01F2 \uni030F \uni0200 \uni0201 \minus \uni0204 \uni0205 \uni0208 \uni0209 
-	\uni020C \uni020D \uni0237 \uni0964 \uni0965 \uni013F \uni0140 \uni0128 \uni0129 
-	\uni012C \uni012D \infinity \lessequal \greaterequal \radical \uni22C4 
-	\approxequal \notequal \uni2207 \product \summation \partialdiff ];
+	\rcaron \uni0157 \registered \ring \ring.case \s \sacute \scaron \scedilla 
+	\uni0219 \section \semicolon \seven \six \slash \uni00AD \space \sterling \t 
+	\tcaron \uni0163 \uni021B \thorn \three \threequarters \threesuperior \tilde 
+	\tilde.case \tm_A \tm_Aa \tm_Ai \tm_Au \tm_AuLengthMark \tm_Ca \tm_E \tm_Ee 
+	\tm_Eight \tm_Enn \tm_Five \tm_Four \tm_Ha \tm_Hundred \tm_I \tm_Ii \tm_Ja \tm_Ka 
+	\tm_La \tm_Lla \tm_Llla \tm_Ma \tm_Maatham \tm_Merpadi \tm_Na \tm_Naal \tm_Nga 
+	\tm_Nine \tm_Nna \tm_Nnna \tm_Nya \tm_O \tm_Om \tm_One \tm_Oo \tm_Pa \tm_Patru 
+	\tm_Ra \tm_Rra \tm_Rupee \tm_Sa \tm_Seven \tm_Sha \tm_Six \tm_Ssa \tm_Ta \tm_Ten 
+	\tm_Thousand \tm_Three \tm_Tta \tm_Two \tm_U \tm_Uu \tm_Va \tm_Varavu 
+	\tm_Varudam \tm_Visarga \tm_VowelAa \tm_VowelAi \tm_VowelAu \tm_VowelE 
+	\tm_VowelEe \tm_VowelI \tm_VowelI.alt1 \tm_VowelIi \tm_VowelO \tm_VowelOo 
+	\tm_VowelU \tm_VowelUu \tm_Ya \tm_Zero \trademark \two \twosuperior \u \uacute 
+	\ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \underscore \uni0000 
+	\uni000D \uni00A0 \uni00AD \uni02C9 \uni25CC \uogonek \uring \v \w \x \y \yacute 
+	\ydieresis \yen \z \zacute \zcaron \zdotaccent \zero \ubreve \scircumflex 
+	\gcircumflex \gdotaccent \Cdotaccent \Ccircumflex \Gdotaccent \Gcircumflex 
+	\Ubreve \Scircumflex \cdotaccent \ccircumflex \jcircumflex \hcircumflex 
+	\uni0124 \Jcircumflex \IJ \ij \Obreve \obreve \uni01C4 \uni01C5 \uni01F4 \uni01F5 
+	\uni0202 \uni0203 \uni0206 \uni0207 \uni020A \uni020B \uni020E \uni020F \uni01C7 
+	\uni01C8 \uni01CA \uni01CB \uni01F1 \uni01F2 \uni030F \uni0200 \uni0201 \minus 
+	\uni0204 \uni0205 \uni0208 \uni0209 \uni020C \uni020D \uni0237 \uni0964 \uni0965 
+	\Ldot \ldot \Itilde \itilde \Ibreve \ibreve \uni221E \uni2264 \uni2265 \uni221A 
+	\uni22C4 \uni2248 \uni2260 \uni2207 \uni220F \uni2211 \uni2202 ];
 @GDEF_Ligature = [\tm_CU \tm_CUu \tm_KSsa \tm_KU \tm_KUu \tm_LU \tm_LlU \tm_LlUu 
 	\tm_LllU \tm_LllUu \tm_MU \tm_MUu \tm_NU \tm_NgUu \tm_NnU \tm_NnnU \tm_NyU 
 	\tm_PUu \tm_RU \tm_RUu \tm_RrU \tm_Shree \tm_TU \tm_TtI \tm_TtIi \tm_TtU \tm_TtUu 

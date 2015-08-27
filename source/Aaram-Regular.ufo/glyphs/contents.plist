@@ -52,7 +52,7 @@
     <string>E_circumflex.glif</string>
     <key>Edieresis</key>
     <string>E_dieresis.glif</string>
-    <key>Edotaccent</key>
+    <key>uni0116</key>
     <string>E_dotaccent.glif</string>
     <key>Egrave</key>
     <string>E_grave.glif</string>
@@ -70,7 +70,7 @@
     <string>G_.glif</string>
     <key>Gbreve</key>
     <string>G_breve.glif</string>
-    <key>Gcommaaccent</key>
+    <key>uni0122</key>
     <string>G_commaaccent.glif</string>
     <key>H</key>
     <string>H_.glif</string>
@@ -94,7 +94,7 @@
     <string>J_.glif</string>
     <key>K</key>
     <string>K_.glif</string>
-    <key>Kcommaaccent</key>
+    <key>uni0136</key>
     <string>K_commaaccent.glif</string>
     <key>L</key>
     <string>L_.glif</string>
@@ -102,7 +102,7 @@
     <string>L_acute.glif</string>
     <key>Lcaron</key>
     <string>L_caron.glif</string>
-    <key>Lcommaaccent</key>
+    <key>uni013B</key>
     <string>L_commaaccent.glif</string>
     <key>Lslash</key>
     <string>L_slash.glif</string>
@@ -114,7 +114,7 @@
     <string>N_acute.glif</string>
     <key>Ncaron</key>
     <string>N_caron.glif</string>
-    <key>Ncommaaccent</key>
+    <key>uni0145</key>
     <string>N_commaaccent.glif</string>
     <key>Ntilde</key>
     <string>N_tilde.glif</string>
@@ -148,7 +148,7 @@
     <string>R_acute.glif</string>
     <key>Rcaron</key>
     <string>R_caron.glif</string>
-    <key>Rcommaaccent</key>
+    <key>uni0156</key>
     <string>R_commaaccent.glif</string>
     <key>S</key>
     <string>S_.glif</string>
@@ -158,15 +158,15 @@
     <string>S_caron.glif</string>
     <key>Scedilla</key>
     <string>S_cedilla.glif</string>
-    <key>Scommaaccent</key>
+    <key>uni0218</key>
     <string>S_commaaccent.glif</string>
     <key>T</key>
     <string>T_.glif</string>
     <key>Tcaron</key>
     <string>T_caron.glif</string>
-    <key>Tcedilla</key>
+    <key>uni0162</key>
     <string>T_cedilla.glif</string>
-    <key>Tcommaaccent</key>
+    <key>uni021A</key>
     <string>T_commaaccent.glif</string>
     <key>Thorn</key>
     <string>T_horn.glif</string>
@@ -264,7 +264,7 @@
     <string>breve.case.glif</string>
     <key>brokenbar</key>
     <string>brokenbar.glif</string>
-    <key>bullet</key>
+    <key>uni2022</key>
     <string>bullet.glif</string>
     <key>c</key>
     <string>c.glif</string>
@@ -290,7 +290,7 @@
     <string>colon.glif</string>
     <key>comma</key>
     <string>comma.glif</string>
-    <key>commaaccent</key>
+    <key>uniF6C3</key>
     <string>commaaccent.glif</string>
     <key>copyright</key>
     <string>copyright.glif</string>
@@ -298,9 +298,9 @@
     <string>currency.glif</string>
     <key>d</key>
     <string>d.glif</string>
-    <key>dagger</key>
+    <key>uni2020</key>
     <string>dagger.glif</string>
-    <key>daggerdbl</key>
+    <key>uni2021</key>
     <string>daggerdbl.glif</string>
     <key>dcaron</key>
     <string>dcaron.glif</string>
@@ -332,13 +332,13 @@
     <string>ecircumflex.glif</string>
     <key>edieresis</key>
     <string>edieresis.glif</string>
-    <key>edotaccent</key>
+    <key>uni0117</key>
     <string>edotaccent.glif</string>
     <key>egrave</key>
     <string>egrave.glif</string>
     <key>eight</key>
     <string>eight.glif</string>
-    <key>ellipsis</key>
+    <key>uni2026</key>
     <string>ellipsis.glif</string>
     <key>emacron</key>
     <string>emacron.glif</string>
@@ -366,19 +366,19 @@
     <string>five.glif</string>
     <key>fl</key>
     <string>fl.glif</string>
-    <key>florin</key>
+    <key>uni0192</key>
     <string>florin.glif</string>
     <key>four</key>
     <string>four.glif</string>
     <key>uni2074</key>
     <string>foursuperior.glif</string>
-    <key>fraction</key>
+    <key>uni2044</key>
     <string>fraction.glif</string>
     <key>g</key>
     <string>g.glif</string>
     <key>gbreve</key>
     <string>gbreve.glif</string>
-    <key>gcommaaccent</key>
+    <key>uni0123</key>
     <string>gcommaaccent.glif</string>
     <key>germandbls</key>
     <string>germandbls.glif</string>
@@ -420,7 +420,7 @@
     <string>j.glif</string>
     <key>k</key>
     <string>k.glif</string>
-    <key>kcommaaccent</key>
+    <key>uni0137</key>
     <string>kcommaaccent.glif</string>
     <key>l</key>
     <string>l.glif</string>
@@ -428,7 +428,7 @@
     <string>lacute.glif</string>
     <key>lcaron</key>
     <string>lcaron.glif</string>
-    <key>lcommaaccent</key>
+    <key>uni013C</key>
     <string>lcommaaccent.glif</string>
     <key>less</key>
     <string>less.glif</string>
@@ -454,7 +454,7 @@
     <string>nacute.glif</string>
     <key>ncaron</key>
     <string>ncaron.glif</string>
-    <key>ncommaaccent</key>
+    <key>uni0146</key>
     <string>ncommaaccent.glif</string>
     <key>nine</key>
     <string>nine.glif</string>
@@ -512,9 +512,9 @@
     <string>period.glif</string>
     <key>periodcentered</key>
     <string>periodcentered.glif</string>
-    <key>perthousand</key>
+    <key>uni2030</key>
     <string>perthousand.glif</string>
-    <key>pi</key>
+    <key>uni03C0</key>
     <string>pi.glif</string>
     <key>plus</key>
     <string>plus.glif</string>
@@ -548,7 +548,7 @@
     <string>racute.glif</string>
     <key>rcaron</key>
     <string>rcaron.glif</string>
-    <key>rcommaaccent</key>
+    <key>uni0157</key>
     <string>rcommaaccent.glif</string>
     <key>registered</key>
     <string>registered.glif</string>
@@ -564,7 +564,7 @@
     <string>scaron.glif</string>
     <key>scedilla</key>
     <string>scedilla.glif</string>
-    <key>scommaaccent</key>
+    <key>uni0219</key>
     <string>scommaaccent.glif</string>
     <key>section</key>
     <string>section.glif</string>
@@ -576,7 +576,7 @@
     <string>six.glif</string>
     <key>slash</key>
     <string>slash.glif</string>
-    <key>softhyphen</key>
+    <key>uni00AD</key>
     <string>softhyphen.glif</string>
     <key>space</key>
     <string>space.glif</string>
@@ -586,9 +586,9 @@
     <string>t.glif</string>
     <key>tcaron</key>
     <string>tcaron.glif</string>
-    <key>tcedilla</key>
+    <key>uni0163</key>
     <string>tcedilla.glif</string>
-    <key>tcommaaccent</key>
+    <key>uni021B</key>
     <string>tcommaaccent.glif</string>
     <key>thorn</key>
     <string>thorn.glif</string>
@@ -830,7 +830,7 @@
     <string>underscore.glif</string>
     <key>uni0000</key>
     <string>uni0000.glif</string>
-    <key>nonmarkingreturn</key>
+    <key>uni000D</key>
     <string>uni000D_.glif</string>
     <key>uni00A0</key>
     <string>uni00A_0.glif</string>
@@ -890,45 +890,45 @@
     <string>tm_R_rU_u.glif</string>
     <key>tm_NnnUu</key>
     <string>tm_N_nnU_u.glif</string>
-    <key>uni016D</key>
+    <key>ubreve</key>
     <string>uni016D_.glif</string>
-    <key>uni015D</key>
+    <key>scircumflex</key>
     <string>uni015D_.glif</string>
-    <key>uni011D</key>
+    <key>gcircumflex</key>
     <string>uni011D_.glif</string>
-    <key>uni0121</key>
+    <key>gdotaccent</key>
     <string>uni0121.glif</string>
-    <key>uni010A</key>
+    <key>Cdotaccent</key>
     <string>uni010A_.glif</string>
-    <key>uni0108</key>
+    <key>Ccircumflex</key>
     <string>uni0108.glif</string>
-    <key>uni0120</key>
+    <key>Gdotaccent</key>
     <string>uni0120.glif</string>
-    <key>uni011C</key>
+    <key>Gcircumflex</key>
     <string>uni011C_.glif</string>
-    <key>uni016C</key>
+    <key>Ubreve</key>
     <string>uni016C_.glif</string>
-    <key>uni015C</key>
+    <key>Scircumflex</key>
     <string>uni015C_.glif</string>
-    <key>uni010B</key>
+    <key>cdotaccent</key>
     <string>uni010B_.glif</string>
-    <key>uni0109</key>
+    <key>ccircumflex</key>
     <string>uni0109.glif</string>
-    <key>uni0135</key>
+    <key>jcircumflex</key>
     <string>uni0135.glif</string>
-    <key>uni0125</key>
+    <key>hcircumflex</key>
     <string>uni0125.glif</string>
     <key>uni0124</key>
     <string>uni0124.glif</string>
-    <key>uni0134</key>
+    <key>Jcircumflex</key>
     <string>uni0134.glif</string>
-    <key>uni0132</key>
+    <key>IJ</key>
     <string>uni0132.glif</string>
-    <key>uni0133</key>
+    <key>ij</key>
     <string>uni0133.glif</string>
-    <key>uni014E</key>
+    <key>Obreve</key>
     <string>uni014E_.glif</string>
-    <key>uni014F</key>
+    <key>obreve</key>
     <string>uni014F_.glif</string>
     <key>uni01C4</key>
     <string>uni01C_4.glif</string>
@@ -992,39 +992,39 @@
     <string>uni0964.glif</string>
     <key>uni0965</key>
     <string>uni0965.glif</string>
-    <key>uni013F</key>
+    <key>Ldot</key>
     <string>uni013F_.glif</string>
-    <key>uni0140</key>
+    <key>ldot</key>
     <string>uni0140.glif</string>
-    <key>uni0128</key>
+    <key>Itilde</key>
     <string>uni0128.glif</string>
-    <key>uni0129</key>
+    <key>itilde</key>
     <string>uni0129.glif</string>
-    <key>uni012C</key>
+    <key>Ibreve</key>
     <string>uni012C_.glif</string>
-    <key>uni012D</key>
+    <key>ibreve</key>
     <string>uni012D_.glif</string>
-    <key>infinity</key>
+    <key>uni221E</key>
     <string>infinity.glif</string>
-    <key>lessequal</key>
+    <key>uni2264</key>
     <string>lessequal.glif</string>
-    <key>greaterequal</key>
+    <key>uni2265</key>
     <string>greaterequal.glif</string>
-    <key>radical</key>
+    <key>uni221A</key>
     <string>radical.glif</string>
     <key>uni22C4</key>
     <string>uni22C_4.glif</string>
-    <key>approxequal</key>
+    <key>uni2248</key>
     <string>approxequal.glif</string>
-    <key>notequal</key>
+    <key>uni2260</key>
     <string>notequal.glif</string>
     <key>uni2207</key>
     <string>uni2207.glif</string>
-    <key>product</key>
+    <key>uni220F</key>
     <string>product.glif</string>
-    <key>summation</key>
+    <key>uni2211</key>
     <string>summation.glif</string>
-    <key>partialdiff</key>
+    <key>uni2202</key>
     <string>partialdiff.glif</string>
   </dict>
 </plist>
