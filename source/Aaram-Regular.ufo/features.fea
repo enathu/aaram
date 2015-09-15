@@ -136,13 +136,13 @@ lookup abvm_1 {
   pos base [\tm_Lla ] <anchor 370 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Llla ] <anchor 375 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Ma ] <anchor 381 0> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Na ] <anchor 254 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Na ] <anchor 203 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Nga ] <anchor 240 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Nna ] <anchor 682 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Nnna ] <anchor 527 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Nya ] <anchor 507 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Pa ] <anchor 266 0> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Rra \tm_PU ] <anchor 299 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Rra ] <anchor 258 1> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Sa ] <anchor 410 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Sha ] <anchor 391 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Ssa ] <anchor 532 0> mark @MARKS_CLASS_0_LUT0_SUB0;
@@ -152,6 +152,7 @@ lookup abvm_1 {
   pos base [\tm_VowelAa ] <anchor 193 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Ya \tm_YU ] <anchor 314 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_NgU ] <anchor 340 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_PU ] <anchor 299 0> mark @MARKS_CLASS_0_LUT0_SUB0;
 } abvm_1;
 
 lookup kernHorizontalKerninglookup0 {
