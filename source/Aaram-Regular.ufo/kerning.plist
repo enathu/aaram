@@ -62,18 +62,100 @@
       <key>tm_VowelUu</key>
       <integer>-10</integer>
     </dict>
+    <key>F</key>
+    <dict>
+      <key>a</key>
+      <integer>-80</integer>
+      <key>c</key>
+      <integer>-100</integer>
+      <key>e</key>
+      <integer>-100</integer>
+      <key>o</key>
+      <integer>-100</integer>
+      <key>r</key>
+      <integer>-105</integer>
+      <key>y</key>
+      <integer>-100</integer>
+    </dict>
+    <key>L</key>
+    <dict>
+      <key>y</key>
+      <integer>-60</integer>
+      <key>u</key>
+      <integer>-68</integer>
+      <key>o</key>
+      <integer>-61</integer>
+      <key>e</key>
+      <integer>-63</integer>
+      <key>c</key>
+      <integer>-63</integer>
+      <key>a</key>
+      <integer>-80</integer>
+    </dict>
+    <key>T</key>
+    <dict>
+      <key>a</key>
+      <integer>-108</integer>
+      <key>c</key>
+      <integer>-97</integer>
+      <key>e</key>
+      <integer>-96</integer>
+      <key>j</key>
+      <integer>-140</integer>
+      <key>o</key>
+      <integer>-80</integer>
+      <key>q</key>
+      <integer>-94</integer>
+      <key>r</key>
+      <integer>-96</integer>
+      <key>s</key>
+      <integer>-96</integer>
+      <key>u</key>
+      <integer>-102</integer>
+      <key>v</key>
+      <integer>-80</integer>
+      <key>w</key>
+      <integer>-98</integer>
+      <key>x</key>
+      <integer>-111</integer>
+      <key>y</key>
+      <integer>-91</integer>
+      <key>z</key>
+      <integer>-129</integer>
+    </dict>
+    <key>V</key>
+    <dict>
+      <key>i</key>
+      <integer>-9</integer>
+      <key>o</key>
+      <integer>-44</integer>
+      <key>e</key>
+      <integer>-43</integer>
+      <key>a</key>
+      <integer>-54</integer>
+    </dict>
+    <key>k</key>
+    <dict>
+      <key>a</key>
+      <integer>-70</integer>
+    </dict>
+    <key>r</key>
+    <dict>
+      <key>a</key>
+      <integer>-34</integer>
+    </dict>
     <key>tm_KSsa</key>
     <dict>
-      <key>tm_VowelUu</key>
-      <integer>-50</integer>
       <key>tm_VowelU</key>
+      <integer>-50</integer>
+      <key>tm_VowelUu</key>
       <integer>-50</integer>
     </dict>
     <key>tm_Ssa</key>
     <dict>
-      <key>tm_VowelUu</key>
-      <integer>-50</integer>
       <key>tm_VowelU</key>
+      <integer>-50</integer>
+      <key>tm_VowelUu</key>
       <integer>-50</integer>
     </dict>
   </dict>

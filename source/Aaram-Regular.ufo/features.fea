@@ -138,8 +138,9 @@ lookup abvm_1 {
   pos base [\tm_Ma ] <anchor 381 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Na ] <anchor 203 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Nga ] <anchor 240 0> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Nna ] <anchor 682 0> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Nnna ] <anchor 527 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_NnU ] <anchor 606 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Nna ] <anchor 628 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [\tm_Nnna \tm_VowelAi ] <anchor 527 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Nya ] <anchor 507 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Pa ] <anchor 266 0> mark @MARKS_CLASS_0_LUT0_SUB0;
   pos base [\tm_Rra ] <anchor 258 1> mark @MARKS_CLASS_0_LUT0_SUB0;
@@ -155,7 +156,7 @@ lookup abvm_1 {
   pos base [\tm_PU ] <anchor 299 0> mark @MARKS_CLASS_0_LUT0_SUB0;
 } abvm_1;
 
-lookup kernHorizontalKerninglookup0 {
+lookup kern {
   lookupflag 0;
     pos \M \E -8;
     pos \P \Q -39;
@@ -163,20 +164,52 @@ lookup kernHorizontalKerninglookup0 {
     pos \a \m -11;
     pos \f \g -24;
     pos \l \m -24;
-    pos \tm_Au \tm_I -40;
-    pos \tm_Au \tm_Ca -60;
     pos \tm_Au \tm_A -80;
-    pos \tm_Ha \tm_VowelUu 0;
+    pos \tm_Au \tm_Ca -60;
+    pos \tm_Au \tm_I -40;
     pos \tm_Ha \tm_VowelU -40;
-    pos \tm_Ja \tm_VowelUu -15;
+    pos \tm_Ha \tm_VowelUu 0;
     pos \tm_Ja \tm_VowelU -15;
-    pos \tm_KSsa \tm_VowelUu -50;
+    pos \tm_Ja \tm_VowelUu -15;
     pos \tm_KSsa \tm_VowelU -50;
-    pos \tm_Sha \tm_VowelUu -10;
+    pos \tm_KSsa \tm_VowelUu -50;
     pos \tm_Sha \tm_VowelU -10;
-    pos \tm_Ssa \tm_VowelUu -50;
+    pos \tm_Sha \tm_VowelUu -10;
     pos \tm_Ssa \tm_VowelU -50;
-} kernHorizontalKerninglookup0;
+    pos \tm_Ssa \tm_VowelUu -50;
+    pos \T \a -108;
+    pos \T \c -97;
+    pos \T \e -96;
+    pos \T \j -140;
+    pos \T \o -80;
+    pos \T \q -94;
+    pos \T \r -96;
+    pos \T \s -96;
+    pos \T \u -102;
+    pos \T \v -80;
+    pos \T \w -98;
+    pos \T \x -111;
+    pos \T \y -91;
+    pos \T \z -129;
+    pos \L \y -60;
+    pos \L \u -68;
+    pos \L \o -61;
+    pos \L \e -63;
+    pos \L \c -63;
+    pos \L \a -80;
+    pos \V \i -9;
+    pos \V \o -44;
+    pos \V \e -43;
+    pos \V \a -54;
+    pos \F \a -80;
+    pos \F \c -100;
+    pos \F \e -100;
+    pos \F \o -100;
+    pos \F \r -105;
+    pos \F \y -100;
+    pos \k \a -70;
+    pos \r \a -34;
+} kern;
 
 feature abvm {
 
@@ -197,7 +230,7 @@ feature kern {
 
  script DFLT;
      language dflt ;
-      lookup kernHorizontalKerninglookup0;
+      lookup kern;
 } kern;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
