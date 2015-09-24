@@ -7,6 +7,21 @@
       <point x="507" y="0" type="move" name="MARKS_CLASS_0_LUT0_SUB0"/>
     </contour>
     <contour>
+      <point x="89" y="326" type="curve"/>
+      <point x="54" y="326" type="line" smooth="yes"/>
+      <point x="54" y="366"/>
+      <point x="69" y="386"/>
+      <point x="82" y="401" type="curve"/>
+      <point x="110" y="429"/>
+      <point x="147" y="432"/>
+      <point x="148" y="432" type="curve" smooth="yes"/>
+      <point x="183" y="432" type="line"/>
+      <point x="183" y="398" type="line"/>
+      <point x="148" y="398" type="line" smooth="yes"/>
+      <point x="116" y="398"/>
+      <point x="89" y="365"/>
+    </contour>
+    <contour>
       <point x="706" y="297" type="line" smooth="yes"/>
       <point x="733" y="297"/>
       <point x="758" y="285"/>
