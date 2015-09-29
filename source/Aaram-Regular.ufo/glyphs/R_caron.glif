@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Rcaron" format="1">
-  <advance width="354"/>
+  <advance width="364"/>
   <unicode hex="0158"/>
   <outline>
     <component base="caron" xOffset="56.3221" yOffset="237.497"/>
