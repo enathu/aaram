@@ -4,34 +4,28 @@
   <unicode hex="0B9F"/>
   <outline>
     <contour>
-      <point x="356" y="0" type="move" name="MARKS_CLASS_0_LUT0_SUB0"/>
+      <point x="356" y="0" type="move" name="Anchor-0"/>
     </contour>
     <contour>
       <point x="165" y="1" type="line" smooth="yes"/>
-      <point x="136" y="1"/>
-      <point x="109" y="13"/>
-      <point x="90" y="33" type="curve"/>
-      <point x="70" y="52"/>
-      <point x="58" y="78"/>
-      <point x="58" y="107" type="curve" smooth="yes"/>
+      <point x="120" y="1"/>
+      <point x="90" y="33" type="qcurve" smooth="yes"/>
+      <point x="58" y="63"/>
+      <point x="58" y="107" type="qcurve" smooth="yes"/>
       <point x="58" y="530" type="line" smooth="yes"/>
-      <point x="58" y="541"/>
-      <point x="66" y="547"/>
-      <point x="75" y="547" type="curve" smooth="yes"/>
-      <point x="86" y="547"/>
-      <point x="93" y="541"/>
-      <point x="93" y="530" type="curve" smooth="yes"/>
+      <point x="58" y="547"/>
+      <point x="75" y="547" type="qcurve" smooth="yes"/>
+      <point x="93" y="547"/>
+      <point x="93" y="530" type="qcurve" smooth="yes"/>
       <point x="93" y="107" type="line" smooth="yes"/>
-      <point x="93" y="68"/>
-      <point x="125" y="36"/>
-      <point x="165" y="36" type="curve" smooth="yes"/>
+      <point x="93" y="78"/>
+      <point x="135" y="36"/>
+      <point x="165" y="36" type="qcurve" smooth="yes"/>
       <point x="561" y="36" type="line" smooth="yes"/>
-      <point x="572" y="36"/>
-      <point x="579" y="29"/>
-      <point x="579" y="18" type="curve" smooth="yes"/>
-      <point x="579" y="9"/>
-      <point x="572" y="1"/>
-      <point x="561" y="1" type="curve" smooth="yes"/>
+      <point x="579" y="36"/>
+      <point x="579" y="18" type="qcurve" smooth="yes"/>
+      <point x="579" y="1"/>
+      <point x="561" y="1" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
 </glyph>

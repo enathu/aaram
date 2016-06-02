@@ -4,18 +4,17 @@
   <outline>
     <contour>
       <point x="27" y="765" type="line"/>
-      <point x="38" y="748"/>
-      <point x="50" y="732"/>
-      <point x="79" y="755" type="curve"/>
+      <point x="34" y="754"/>
+      <point x="44" y="744"/>
+      <point x="65" y="744"/>
+      <point x="79" y="755" type="qcurve"/>
       <point x="154" y="853" type="line"/>
       <point x="229" y="755" type="line"/>
-      <point x="252" y="736"/>
-      <point x="269" y="734"/>
-      <point x="280" y="765" type="curve"/>
+      <point x="266" y="725"/>
+      <point x="280" y="765" type="qcurve"/>
       <point x="186" y="891" type="line"/>
-      <point x="165" y="915"/>
-      <point x="144" y="915"/>
-      <point x="123" y="891" type="curve"/>
+      <point x="154" y="927"/>
+      <point x="123" y="891" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
 </glyph>
