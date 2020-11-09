@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tm_Enn" format="1">
+<glyph name="tm_Enn" format="2">
   <advance width="861"/>
   <unicode hex="0BFA"/>
   <outline>
     <contour>
       <point x="294" y="319" type="line" smooth="yes"/>
       <point x="329" y="319"/>
-      <point x="355" y="288" type="qcurve" smooth="yes"/>
+      <point x="355" y="288" type="qcurve"/>
       <point x="379" y="256"/>
       <point x="379" y="212" type="qcurve" smooth="yes"/>
       <point x="379" y="-9" type="line" smooth="yes"/>
       <point x="379" y="-47"/>
       <point x="331" y="-105"/>
-      <point x="295" y="-113" type="qcurve" smooth="yes"/>
+      <point x="295" y="-113" type="qcurve"/>
       <point x="294" y="-116"/>
       <point x="287" y="-116" type="qcurve" smooth="yes"/>
       <point x="141" y="-116" type="line" smooth="yes"/>
@@ -25,7 +25,7 @@
       <point x="38" y="-201"/>
       <point x="38" y="-184" type="qcurve" smooth="yes"/>
       <point x="38" y="-140"/>
-      <point x="69" y="-111" type="qcurve" smooth="yes"/>
+      <point x="69" y="-111" type="qcurve"/>
       <point x="99" y="-81"/>
       <point x="141" y="-81" type="qcurve" smooth="yes"/>
       <point x="183" y="-81" type="line"/>
@@ -141,7 +141,10 @@
       <point x="508" y="715" type="line" smooth="yes"/>
       <point x="508" y="741"/>
       <point x="471" y="779"/>
-      <point x="445" y="780" type="qcurve" smooth="yes"/>
+      <point x="445" y="780" type="qcurve"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

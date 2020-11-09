@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uniFB00" format="1">
+<glyph name="uniFB00" format="2">
   <advance width="413"/>
   <unicode hex="FB00"/>
   <outline>
@@ -20,7 +20,7 @@
       <point x="138" y="573" type="line"/>
       <point x="138" y="656" type="line" smooth="yes"/>
       <point x="138" y="704"/>
-      <point x="173" y="739" type="qcurve" smooth="yes"/>
+      <point x="173" y="739" type="qcurve"/>
       <point x="209" y="773"/>
       <point x="256" y="773" type="qcurve" smooth="yes"/>
       <point x="274" y="773"/>
@@ -55,7 +55,7 @@
       <point x="243" y="573" type="line"/>
       <point x="243" y="656" type="line" smooth="yes"/>
       <point x="243" y="704"/>
-      <point x="278" y="739" type="qcurve" smooth="yes"/>
+      <point x="278" y="739" type="qcurve"/>
       <point x="314" y="773"/>
       <point x="361" y="773" type="qcurve" smooth="yes"/>
       <point x="379" y="773"/>
@@ -74,4 +74,7 @@
       <point x="346" y="536" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

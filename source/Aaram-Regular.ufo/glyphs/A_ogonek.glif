@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Aogonek" format="1">
+<glyph name="Aogonek" format="2">
   <advance width="365"/>
   <unicode hex="0104"/>
   <outline>
     <contour>
-      <point x="204" y="-25" type="qcurve" smooth="yes"/>
+      <point x="204" y="-25" type="qcurve"/>
       <point x="206" y="-25" type="line"/>
       <point x="208" y="-25" type="line"/>
       <point x="235" y="-25" type="line" smooth="yes"/>
@@ -16,7 +16,7 @@
       <point x="302" y="4" type="qcurve" smooth="yes"/>
       <point x="302" y="-23"/>
       <point x="264" y="-62"/>
-      <point x="237" y="-62" type="qcurve" smooth="yes"/>
+      <point x="237" y="-62" type="qcurve"/>
       <point x="235" y="-62" type="line"/>
       <point x="204" y="-62" type="line" smooth="yes"/>
       <point x="190" y="-62"/>
@@ -74,4 +74,7 @@
       <point x="265" y="460" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

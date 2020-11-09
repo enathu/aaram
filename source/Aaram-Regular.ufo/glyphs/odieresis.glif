@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="odieresis" format="1">
+<glyph name="odieresis" format="2">
   <advance width="322"/>
   <unicode hex="00F6"/>
   <outline>
     <contour>
-      <point x="81" y="23" type="qcurve" smooth="yes"/>
+      <point x="81" y="23" type="qcurve"/>
       <point x="46" y="56"/>
       <point x="46" y="105" type="qcurve" smooth="yes"/>
       <point x="46" y="409" type="line" smooth="yes"/>
       <point x="46" y="467"/>
-      <point x="81" y="502" type="qcurve" smooth="yes"/>
+      <point x="81" y="502" type="qcurve"/>
       <point x="113" y="536"/>
       <point x="163" y="536" type="qcurve" smooth="yes"/>
       <point x="212" y="536"/>
-      <point x="246" y="502" type="qcurve" smooth="yes"/>
+      <point x="246" y="502" type="qcurve"/>
       <point x="280" y="466"/>
       <point x="280" y="409" type="qcurve" smooth="yes"/>
       <point x="280" y="105" type="line" smooth="yes"/>
@@ -72,4 +72,7 @@
       <point x="251" y="626"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

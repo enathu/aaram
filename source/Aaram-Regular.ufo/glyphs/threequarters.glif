@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="threequarters" format="1">
+<glyph name="threequarters" format="2">
   <advance width="552"/>
   <unicode hex="00BE"/>
   <outline>
@@ -46,9 +46,9 @@
       <point x="458" y="423"/>
     </contour>
     <contour>
-      <point x="170" y="595" type="qcurve" smooth="yes"/>
+      <point x="170" y="595" type="qcurve"/>
       <point x="172" y="603"/>
-      <point x="172" y="604" type="qcurve" smooth="yes"/>
+      <point x="172" y="604" type="qcurve"/>
       <point x="173" y="604" type="line"/>
       <point x="173" y="698" type="line" smooth="yes"/>
       <point x="173" y="730"/>
@@ -68,15 +68,15 @@
       <point x="135" y="714"/>
       <point x="135" y="698" type="qcurve" smooth="yes"/>
       <point x="135" y="616" type="line"/>
-      <point x="135" y="615" type="line" smooth="yes"/>
+      <point x="135" y="615" type="line"/>
       <point x="135" y="602"/>
       <point x="118" y="584"/>
-      <point x="105" y="583" type="qcurve" smooth="yes"/>
+      <point x="105" y="583" type="qcurve"/>
       <point x="103" y="583" type="line"/>
       <point x="55" y="583" type="line"/>
       <point x="55" y="545" type="line"/>
       <point x="103" y="545" type="line"/>
-      <point x="105" y="545" type="line" smooth="yes"/>
+      <point x="105" y="545" type="line"/>
       <point x="118" y="544"/>
       <point x="135" y="526"/>
       <point x="135" y="513" type="qcurve" smooth="yes"/>
@@ -107,4 +107,7 @@
       <point x="164" y="577"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

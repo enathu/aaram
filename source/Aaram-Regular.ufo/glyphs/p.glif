@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="p" format="1">
+<glyph name="p" format="2">
   <advance width="365"/>
   <unicode hex="0070"/>
   <outline>
     <contour>
-      <point x="280" y="494" type="qcurve" smooth="yes"/>
+      <point x="280" y="494" type="qcurve"/>
       <point x="314" y="458"/>
       <point x="314" y="411" type="qcurve" smooth="yes"/>
       <point x="314" y="116" type="line" smooth="yes"/>
       <point x="314" y="69"/>
-      <point x="280" y="33" type="qcurve" smooth="yes"/>
+      <point x="280" y="33" type="qcurve"/>
       <point x="246" y="-1"/>
       <point x="197" y="-1" type="qcurve" smooth="yes"/>
       <point x="150" y="-1"/>
       <point x="115" y="32" type="qcurve"/>
-      <point x="79" y="508" type="line" smooth="yes"/>
+      <point x="79" y="508" type="line"/>
       <point x="79" y="527"/>
       <point x="115" y="527"/>
       <point x="115" y="508" type="qcurve" smooth="yes"/>
@@ -43,9 +43,12 @@
       <point x="116" y="172" type="line"/>
       <point x="116" y="-221" type="line" smooth="yes"/>
       <point x="116" y="-239"/>
-      <point x="80" y="-239"/>
+      <point x="79.9753" y="-239"/>
       <point x="80" y="-221" type="qcurve" smooth="yes"/>
       <point x="81" y="509" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

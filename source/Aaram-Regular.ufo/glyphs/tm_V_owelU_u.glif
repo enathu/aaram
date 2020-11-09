@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tm_VowelUu" format="1">
+<glyph name="tm_VowelUu" format="2">
   <advance width="474"/>
   <unicode hex="0BC2"/>
   <outline>
@@ -78,4 +78,7 @@
       <point x="161" y="512" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

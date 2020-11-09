@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="cent" format="1">
+<glyph name="cent" format="2">
   <advance width="311"/>
   <unicode hex="00A2"/>
   <outline>
@@ -21,10 +21,10 @@
       <point x="272" y="140" type="line"/>
       <point x="272" y="117" type="line" smooth="yes"/>
       <point x="272" y="67"/>
-      <point x="238" y="35" type="qcurve" smooth="yes"/>
+      <point x="238" y="35" type="qcurve"/>
       <point x="203" y="0"/>
       <point x="107" y="0"/>
-      <point x="72" y="35" type="qcurve" smooth="yes"/>
+      <point x="72" y="35" type="qcurve"/>
       <point x="38" y="67"/>
       <point x="38" y="117" type="qcurve" smooth="yes"/>
       <point x="38" y="412" type="line" smooth="yes"/>
@@ -52,4 +52,7 @@
       <point x="177" y="641"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

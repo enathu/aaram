@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tm_Zero" format="1">
+<glyph name="tm_Zero" format="2">
   <advance width="417"/>
   <unicode hex="0BE6"/>
   <outline>
@@ -32,7 +32,7 @@
       <point x="169" y="296"/>
       <point x="286" y="230"/>
       <point x="338" y="200"/>
-      <point x="337" y="200" type="qcurve" smooth="yes"/>
+      <point x="337" y="200" type="qcurve"/>
       <point x="335" y="200"/>
       <point x="335" y="203" type="qcurve" smooth="yes"/>
       <point x="335" y="355" type="line"/>
@@ -45,7 +45,7 @@
     </contour>
     <contour>
       <point x="335" y="122" type="qcurve" smooth="yes"/>
-      <point x="335" y="164" type="line" smooth="yes"/>
+      <point x="335" y="164" type="line"/>
       <point x="335" y="152"/>
       <point x="138" y="268" type="qcurve" smooth="yes"/>
       <point x="89" y="298" type="line"/>
@@ -56,4 +56,7 @@
       <point x="335" y="38"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

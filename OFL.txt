@@ -1,4 +1,4 @@
-Copyright (c) 2014, Tharique Azeez (http://niram.org|zeezat@gmail.com)
+Copyright 2014 Tharique Azeez (https://github.com/enathu/aaram)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:

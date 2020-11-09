@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="aogonek" format="1">
+<glyph name="aogonek" format="2">
   <advance width="430"/>
   <unicode hex="0105"/>
   <outline>
     <contour>
-      <point x="107" y="-56" type="qcurve" smooth="yes"/>
+      <point x="107" y="-56" type="qcurve"/>
       <point x="109" y="-56" type="line"/>
       <point x="111" y="-56" type="line"/>
       <point x="138" y="-56" type="line" smooth="yes"/>
@@ -16,7 +16,7 @@
       <point x="205" y="-27" type="qcurve" smooth="yes"/>
       <point x="205" y="-54"/>
       <point x="167" y="-93"/>
-      <point x="140" y="-93" type="qcurve" smooth="yes"/>
+      <point x="140" y="-93" type="qcurve"/>
       <point x="138" y="-93" type="line"/>
       <point x="107" y="-93" type="line" smooth="yes"/>
       <point x="93" y="-93"/>
@@ -54,17 +54,14 @@
       <point x="287" y="115" type="line"/>
       <point x="287" y="114" type="line"/>
       <point x="287" y="113" type="line"/>
-      <point x="287" y="113"/>
-      <point x="287" y="106" type="qcurve" smooth="yes"/>
-      <point x="287" y="106"/>
-      <point x="287" y="80" type="qcurve" smooth="yes"/>
-      <point x="287" y="80"/>
-      <point x="287" y="19" type="qcurve" smooth="yes"/>
+      <point x="287" y="106" type="line"/>
+      <point x="287" y="80" type="line"/>
+      <point x="287" y="19" type="line" smooth="yes"/>
       <point x="287" y="0"/>
       <point x="270" y="0" type="qcurve" smooth="yes"/>
       <point x="262" y="0"/>
       <point x="250" y="11"/>
-      <point x="251" y="19" type="qcurve" smooth="yes"/>
+      <point x="251" y="19" type="qcurve"/>
       <point x="251" y="31" type="line"/>
       <point x="217" y="-1"/>
       <point x="171" y="-1" type="qcurve" smooth="yes"/>
@@ -89,4 +86,7 @@
       <point x="251" y="115" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

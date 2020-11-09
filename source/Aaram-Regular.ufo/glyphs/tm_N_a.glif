@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tm_Na" format="1">
+<glyph name="tm_Na" format="2">
   <advance width="429"/>
   <unicode hex="0BA8"/>
+  <anchor x="203" y="0" name="Anchor0"/>
+  <anchor x="203" y="0" name="Anchor-0"/>
   <outline>
     <contour>
-      <point x="203" y="0" type="move" name="Anchor-0"/>
-    </contour>
-    <contour>
-      <point x="355" y="289" type="qcurve" smooth="yes"/>
+      <point x="355" y="289" type="qcurve"/>
       <point x="379" y="257"/>
       <point x="379" y="213" type="qcurve" smooth="yes"/>
       <point x="379" y="-8" type="line" smooth="yes"/>
       <point x="379" y="-46"/>
       <point x="331" y="-104"/>
-      <point x="295" y="-112" type="qcurve" smooth="yes"/>
+      <point x="295" y="-112" type="qcurve"/>
       <point x="294" y="-115"/>
       <point x="287" y="-115" type="qcurve" smooth="yes"/>
       <point x="141" y="-115" type="line" smooth="yes"/>
@@ -26,7 +25,7 @@
       <point x="38" y="-200"/>
       <point x="38" y="-183" type="qcurve" smooth="yes"/>
       <point x="38" y="-139"/>
-      <point x="69" y="-110" type="qcurve" smooth="yes"/>
+      <point x="69" y="-110" type="qcurve"/>
       <point x="99" y="-80"/>
       <point x="141" y="-80" type="qcurve" smooth="yes"/>
       <point x="183" y="-80" type="line"/>
@@ -72,4 +71,7 @@
       <point x="329" y="320"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

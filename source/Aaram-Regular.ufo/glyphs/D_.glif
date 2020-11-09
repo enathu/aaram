@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="D" format="1">
+<glyph name="D" format="2">
   <advance width="370"/>
   <unicode hex="0044"/>
   <outline>
     <contour>
       <point x="101" y="33" type="line"/>
-      <point x="101" y="33"/>
-      <point x="187" y="33" type="qcurve" smooth="yes"/>
+      <point x="187" y="33" type="line" smooth="yes"/>
       <point x="223" y="33"/>
       <point x="271" y="79"/>
       <point x="271" y="112" type="qcurve" smooth="yes"/>
@@ -30,9 +29,9 @@
       <point x="65" y="611" type="line"/>
       <point x="65" y="614" type="line"/>
       <point x="65" y="713" type="line" smooth="yes"/>
-      <point x="65" y="731"/>
+      <point x="64.9865" y="731.302"/>
       <point x="84" y="732" type="qcurve" smooth="yes"/>
-      <point x="174" y="735"/>
+      <point x="173.989" y="735.302"/>
       <point x="250" y="722"/>
       <point x="274" y="698" type="qcurve" smooth="yes"/>
       <point x="309" y="663"/>
@@ -46,4 +45,7 @@
       <point x="99" y="1"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

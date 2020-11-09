@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="quoteleft" format="1">
+<glyph name="quoteleft" format="2">
   <advance width="158"/>
   <unicode hex="2018"/>
   <outline>
@@ -8,14 +8,14 @@
       <point x="40" y="644" type="line" smooth="yes"/>
       <point x="40" y="667"/>
       <point x="63" y="680" type="qcurve"/>
-      <point x="92" y="726" type="line" smooth="yes"/>
+      <point x="92" y="726" type="line"/>
       <point x="100" y="734"/>
       <point x="107" y="734" type="qcurve" smooth="yes"/>
       <point x="111" y="734"/>
       <point x="113" y="732"/>
-      <point x="115" y="732" type="qcurve" smooth="yes"/>
+      <point x="115" y="732" type="qcurve"/>
       <point x="129" y="721"/>
-      <point x="122" y="709" type="qcurve" smooth="yes"/>
+      <point x="122" y="709" type="qcurve"/>
       <point x="101" y="678" type="line"/>
       <point x="120" y="665"/>
       <point x="120" y="644" type="qcurve" smooth="yes"/>
@@ -27,4 +27,7 @@
       <point x="40" y="599"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

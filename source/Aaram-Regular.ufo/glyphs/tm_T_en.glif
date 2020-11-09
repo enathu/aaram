@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tm_Ten" format="1">
+<glyph name="tm_Ten" format="2">
   <advance width="663"/>
   <unicode hex="0BF0"/>
   <outline>
     <contour>
-      <point x="566" y="720" type="qcurve" smooth="yes"/>
+      <point x="566" y="720" type="qcurve"/>
       <point x="597" y="687"/>
       <point x="597" y="645" type="qcurve" smooth="yes"/>
       <point x="597" y="105" type="line" smooth="yes"/>
       <point x="597" y="62"/>
-      <point x="566" y="31" type="qcurve" smooth="yes"/>
+      <point x="566" y="31" type="qcurve"/>
       <point x="533" y="0"/>
       <point x="491" y="0" type="qcurve" smooth="yes"/>
       <point x="418" y="0" type="line" smooth="yes"/>
@@ -19,7 +19,7 @@
       <point x="241" y="4" type="qcurve" smooth="yes"/>
       <point x="168" y="4" type="line" smooth="yes"/>
       <point x="123" y="4"/>
-      <point x="94" y="35" type="qcurve" smooth="yes"/>
+      <point x="94" y="35" type="qcurve"/>
       <point x="62" y="65"/>
       <point x="62" y="109" type="qcurve" smooth="yes"/>
       <point x="62" y="533" type="line" smooth="yes"/>
@@ -66,4 +66,7 @@
       <point x="533" y="751"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

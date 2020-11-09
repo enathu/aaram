@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Cacute" format="1">
+<glyph name="Cacute" format="2">
   <advance width="350"/>
   <unicode hex="0106"/>
   <outline>
     <contour>
-      <point x="304" y="861" type="qcurve" smooth="yes"/>
+      <point x="304" y="861" type="qcurve"/>
       <point x="221" y="817" type="line"/>
       <point x="268" y="841" type="line"/>
-      <point x="184" y="797" type="line" smooth="yes"/>
+      <point x="184" y="797" type="line"/>
       <point x="169" y="788"/>
-      <point x="160" y="804" type="qcurve" smooth="yes"/>
+      <point x="160" y="804" type="qcurve"/>
       <point x="151" y="819"/>
-      <point x="167" y="829" type="qcurve" smooth="yes"/>
+      <point x="167" y="829" type="qcurve"/>
       <point x="251" y="873" type="line"/>
       <point x="204" y="848" type="line"/>
-      <point x="287" y="893" type="line" smooth="yes"/>
+      <point x="287" y="893" type="line"/>
       <point x="302" y="902"/>
-      <point x="312" y="886" type="qcurve" smooth="yes"/>
+      <point x="312" y="886" type="qcurve"/>
       <point x="319" y="870"/>
     </contour>
     <contour>
@@ -29,7 +29,7 @@
       <point x="94" y="611" type="qcurve" smooth="yes"/>
       <point x="94" y="112" type="line" smooth="yes"/>
       <point x="94" y="76"/>
-      <point x="119" y="53" type="qcurve" smooth="yes"/>
+      <point x="119" y="53" type="qcurve"/>
       <point x="142" y="28"/>
       <point x="178" y="28" type="qcurve" smooth="yes"/>
       <point x="213" y="28"/>
@@ -57,4 +57,7 @@
       <point x="300" y="552" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

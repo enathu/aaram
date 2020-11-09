@@ -7,27 +7,31 @@
     <key>styleName</key>
     <string>Regular</string>
     <key>styleMapFamilyName</key>
-    <string>Aaram Regular</string>
+    <string>Aaram</string>
+    <key>styleMapStyleName</key>
+    <string>regular</string>
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>7</integer>
+    <integer>8</integer>
     <key>copyright</key>
-    <string>Copyright (c) 2014 by Tharique Azeez. All rights reserved.</string>
+    <string>Copyright 2014 Tharique Azeez (https://github.com/enathu/aaram)</string>
     <key>unitsPerEm</key>
     <integer>1000</integer>
+    <key>capHeight</key>
+    <integer>700</integer>
+    <key>xHeight</key>
+    <integer>500</integer>
     <key>ascender</key>
     <integer>750</integer>
     <key>descender</key>
     <integer>-250</integer>
     <key>italicAngle</key>
-    <real>0</real>
-    <key>note</key>
-    <string></string>
+    <real>-0</real>
     <key>openTypeHeadCreated</key>
-    <string>2015/07/30 07:24:28</string>
+    <string>2020/11/09 05:00:04</string>
     <key>openTypeHheaAscender</key>
-    <integer>971</integer>
+    <integer>750</integer>
     <key>openTypeHheaDescender</key>
     <integer>-351</integer>
     <key>openTypeHheaLineGap</key>
@@ -41,9 +45,7 @@
     <key>openTypeNameManufacturerURL</key>
     <string>http://niram.org</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.7</string>
-    <key>openTypeNameUniqueID</key>
-    <string>FontForge 2.0 : Aaram Regular : 24-9-2015</string>
+    <string>Version 1.8</string>
     <key>openTypeNamePreferredFamilyName</key>
     <string>Aaram</string>
     <key>openTypeNamePreferredSubfamilyName</key>
@@ -66,7 +68,7 @@
     <key>openTypeOS2WeightClass</key>
     <integer>400</integer>
     <key>openTypeOS2VendorID</key>
-    <string>    </string>
+    <string></string>
     <key>openTypeOS2FamilyClass</key>
     <array>
       <integer>0</integer>
@@ -81,7 +83,7 @@
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2WinAscent</key>
-    <integer>971</integer>
+    <integer>974</integer>
     <key>openTypeOS2WinDescent</key>
     <integer>351</integer>
     <key>openTypeOS2SubscriptXSize</key>
@@ -137,10 +139,32 @@
     <key>postscriptFullName</key>
     <string>Aaram Regular</string>
     <key>postscriptWeightName</key>
-    <string>Book</string>
+    <string>Regular</string>
     <key>postscriptUnderlineThickness</key>
     <integer>0</integer>
     <key>postscriptUnderlinePosition</key>
     <integer>-200</integer>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>-20</integer>
+      <integer>0</integer>
+    </array>
+    <key>postscriptBlueFuzz</key>
+    <integer>1</integer>
+    <key>postscriptBlueShift</key>
+    <integer>7</integer>
+    <key>postscriptBlueScale</key>
+    <real>0.039625</real>
+    <key>postscriptForceBold</key>
+    <false/>
+    <key>guidelines</key>
+    <array>
+      <dict>
+        <key>y</key>
+        <real>250</real>
+        <key>name</key>
+        <string>m</string>
+      </dict>
+    </array>
   </dict>
 </plist>

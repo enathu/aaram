@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Otilde" format="1">
+<glyph name="Otilde" format="2">
   <advance width="335"/>
   <unicode hex="00D5"/>
   <outline>
@@ -33,7 +33,7 @@
       <point x="84" y="612" type="qcurve" smooth="yes"/>
       <point x="84" y="113" type="line" smooth="yes"/>
       <point x="84" y="77"/>
-      <point x="109" y="54" type="qcurve" smooth="yes"/>
+      <point x="109" y="54" type="qcurve"/>
       <point x="132" y="29"/>
       <point x="168" y="29" type="qcurve" smooth="yes"/>
       <point x="203" y="29"/>
@@ -42,7 +42,7 @@
       <point x="252" y="113" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="31" y="837" type="qcurve" smooth="yes"/>
+      <point x="31" y="837" type="qcurve"/>
       <point x="39" y="856"/>
       <point x="61" y="870" type="qcurve" smooth="yes"/>
       <point x="72" y="877"/>
@@ -52,22 +52,22 @@
       <point x="173" y="838"/>
       <point x="185" y="838" type="qcurve" smooth="yes"/>
       <point x="204" y="838"/>
-      <point x="230" y="856" type="qcurve" smooth="yes"/>
+      <point x="230" y="856" type="qcurve"/>
       <point x="240" y="862"/>
-      <point x="245" y="868" type="qcurve" smooth="yes"/>
+      <point x="245" y="868" type="qcurve"/>
       <point x="250" y="873"/>
-      <point x="248" y="873" type="qcurve" smooth="yes"/>
+      <point x="248" y="873" type="qcurve"/>
       <point x="247" y="873"/>
       <point x="251" y="869" type="qcurve" smooth="yes"/>
       <point x="260" y="860"/>
-      <point x="262" y="859" type="qcurve" smooth="yes"/>
+      <point x="262" y="859" type="qcurve"/>
       <point x="280" y="845" type="line"/>
       <point x="251" y="821"/>
       <point x="219" y="807" type="qcurve" smooth="yes"/>
       <point x="189" y="794"/>
-      <point x="163" y="809" type="qcurve" smooth="yes"/>
+      <point x="163" y="809" type="qcurve"/>
       <point x="155" y="814"/>
-      <point x="141" y="824" type="qcurve" smooth="yes"/>
+      <point x="141" y="824" type="qcurve"/>
       <point x="114" y="845"/>
       <point x="101" y="842" type="qcurve" smooth="yes"/>
       <point x="82" y="838"/>
@@ -75,12 +75,14 @@
       <point x="61" y="817"/>
       <point x="51" y="805" type="qcurve"/>
       <point x="39" y="817"/>
-      <point x="31" y="827" type="qcurve" smooth="yes"/>
+      <point x="31" y="827" type="qcurve"/>
       <point x="27" y="831"/>
-      <point x="27" y="830" type="qcurve" smooth="yes"/>
-      <point x="27" y="830"/>
-      <point x="28" y="831" type="qcurve" smooth="yes"/>
+      <point x="27" y="830" type="qcurve"/>
+      <point x="28" y="831" type="line"/>
       <point x="30" y="834"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

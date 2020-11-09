@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tm_LllU" format="1">
+<glyph name="tm_LllU" format="2">
   <advance width="836"/>
   <outline>
     <contour>
       <point x="105" y="444" type="qcurve"/>
       <point x="70" y="444" type="line"/>
       <point x="70" y="487"/>
-      <point x="98" y="519" type="qcurve" smooth="yes"/>
+      <point x="98" y="519" type="qcurve"/>
       <point x="110" y="531"/>
       <point x="144" y="547"/>
       <point x="161" y="550"/>
@@ -22,7 +22,7 @@
       <point x="561" y="-91" type="line"/>
       <point x="642" y="-91" type="line" smooth="yes"/>
       <point x="685" y="-91"/>
-      <point x="718" y="-119" type="qcurve" smooth="yes"/>
+      <point x="718" y="-119" type="qcurve"/>
       <point x="749" y="-147"/>
       <point x="749" y="-187" type="qcurve" smooth="yes"/>
       <point x="749" y="-225"/>
@@ -31,7 +31,7 @@
       <point x="638" y="-284" type="qcurve" smooth="yes"/>
       <point x="181" y="-284" type="line" smooth="yes"/>
       <point x="136" y="-284"/>
-      <point x="103" y="-251" type="qcurve" smooth="yes"/>
+      <point x="103" y="-251" type="qcurve"/>
       <point x="70" y="-220"/>
       <point x="70" y="-171" type="qcurve" smooth="yes"/>
       <point x="70" y="443" type="line" smooth="yes"/>
@@ -79,12 +79,12 @@
       <point x="630" y="550" type="qcurve" smooth="yes"/>
       <point x="659" y="550" type="line" smooth="yes"/>
       <point x="703" y="550"/>
-      <point x="735" y="520" type="qcurve" smooth="yes"/>
+      <point x="735" y="520" type="qcurve"/>
       <point x="766" y="487"/>
       <point x="766" y="445" type="qcurve" smooth="yes"/>
       <point x="766" y="106" type="line" smooth="yes"/>
       <point x="766" y="62"/>
-      <point x="735" y="31" type="qcurve" smooth="yes"/>
+      <point x="735" y="31" type="qcurve"/>
       <point x="702" y="0"/>
       <point x="659" y="0" type="qcurve" smooth="yes"/>
     </contour>
@@ -104,4 +104,7 @@
       <point x="560" y="445" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

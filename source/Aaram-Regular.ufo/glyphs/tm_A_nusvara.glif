@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tm_Anusvara" format="1">
+<glyph name="tm_Anusvara" format="2">
   <advance width="4"/>
   <unicode hex="0B82"/>
+  <anchor x="0" y="0" name="_Anchor0"/>
+  <anchor x="0" y="0" name="_Anchor-0"/>
   <outline>
-    <contour>
-      <point x="0" y="0" type="move" name="_Anchor-0"/>
-    </contour>
     <contour>
       <point x="83" y="770" type="qcurve" smooth="yes"/>
       <point x="83" y="724" type="line" smooth="yes"/>
@@ -38,4 +37,7 @@
       <point x="50" y="707"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

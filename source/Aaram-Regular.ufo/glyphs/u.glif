@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="u" format="1">
+<glyph name="u" format="2">
   <advance width="350"/>
   <unicode hex="0075"/>
   <outline>
     <contour>
-      <point x="296" y="16" type="line" smooth="yes"/>
+      <point x="296" y="16" type="line"/>
       <point x="297" y="8"/>
       <point x="286" y="-2"/>
-      <point x="278" y="-2" type="qcurve" smooth="yes"/>
+      <point x="278" y="-2" type="qcurve"/>
       <point x="271" y="-3"/>
       <point x="260" y="8"/>
-      <point x="260" y="16" type="qcurve" smooth="yes"/>
+      <point x="260" y="16" type="qcurve"/>
       <point x="262" y="30"/>
-      <point x="260" y="48" type="qcurve" smooth="yes"/>
+      <point x="260" y="48" type="qcurve"/>
       <point x="259" y="52"/>
-      <point x="260" y="80" type="qcurve" smooth="yes"/>
+      <point x="260" y="80" type="qcurve"/>
       <point x="260" y="119" type="line"/>
       <point x="296" y="119" type="line"/>
     </contour>
@@ -47,4 +47,7 @@
       <point x="296" y="106" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="acircumflex" format="1">
+<glyph name="acircumflex" format="2">
   <advance width="416"/>
   <unicode hex="00E2"/>
   <outline>
@@ -29,7 +29,7 @@
       <point x="259" y="0" type="qcurve" smooth="yes"/>
       <point x="251" y="0"/>
       <point x="239" y="11"/>
-      <point x="240" y="19" type="qcurve" smooth="yes"/>
+      <point x="240" y="19" type="qcurve"/>
       <point x="240" y="31" type="line"/>
       <point x="206" y="-1"/>
       <point x="160" y="-1" type="qcurve" smooth="yes"/>
@@ -56,24 +56,27 @@
     <contour>
       <point x="255" y="578" type="qcurve" smooth="yes"/>
       <point x="243" y="563"/>
-      <point x="226" y="575" type="qcurve" smooth="yes"/>
+      <point x="226" y="575" type="qcurve"/>
       <point x="182" y="619"/>
-      <point x="170" y="624" type="qcurve" smooth="yes"/>
+      <point x="170" y="624" type="qcurve"/>
       <point x="164" y="627"/>
       <point x="158" y="627" type="qcurve" smooth="yes"/>
       <point x="135" y="627"/>
       <point x="86" y="578" type="qcurve" smooth="yes"/>
       <point x="67" y="559"/>
-      <point x="56" y="568" type="qcurve" smooth="yes"/>
+      <point x="56" y="568" type="qcurve"/>
       <point x="42" y="582"/>
       <point x="52" y="599" type="qcurve"/>
       <point x="86" y="633"/>
-      <point x="116" y="659" type="qcurve" smooth="yes"/>
+      <point x="116" y="659" type="qcurve"/>
       <point x="156" y="690"/>
-      <point x="198" y="657" type="qcurve" smooth="yes"/>
+      <point x="198" y="657" type="qcurve"/>
       <point x="218" y="640"/>
-      <point x="252" y="609" type="qcurve" smooth="yes"/>
+      <point x="252" y="609" type="qcurve"/>
       <point x="269" y="596"/>
     </contour>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>
